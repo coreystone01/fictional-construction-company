@@ -1,4 +1,205 @@
-body{
-    margin: 0%;
-    padding: 0%;
+/* Style Resets */
+*   {
+    margin: 0;
+    padding: 0;
+
+    &::before, &::after{
+        box-sizing: inherit;
+    }
+    
 }
+
+img {
+    max-width: 100%;
+}
+
+html, body  {
+    // height: 100%;
+    font-family: $body-font;
+}
+
+a {
+    text-decoration: none;   
+    // use ampersand to nest elements that are the same
+    // &:focus  {
+    //     background: #545454;
+    //     color: #fff;
+    // }
+
+}
+
+
+
+// h2  {
+//     font-size: 8vw;
+    
+//     &::after  {
+//         background-color: #8C52FF;
+//         height: 4px;
+//         width: 40px;
+//         position: relative;
+//         content: "";
+//         display: block;
+//     }
+// }
+
+// h3  {
+//     font-size: 7vw;
+
+//     // &::after {
+//     //     background-color: #8C52FF;
+//     //     height: 4px;
+//     //     width: 40px;
+//     //     position: relative;
+//     //     content: "";
+//     //     display: block;
+//     //     margin-top: 1%;
+//     // }
+// }
+
+// p   { 
+//     font-size: 5vw;
+// }
+
+
+// ul {
+//     font-size: 5vw;
+// }
+
+
+// @media screen and (max-width: 896px) and (orientation: landscape)   {
+//     h2 {
+//         font-size: 5vw;
+//     }
+    
+//     h2::after  {
+//         background-color: #8C52FF;
+//         height: 4px;
+//         width: 40px;
+//         position: relative;
+//         content: "";
+//         display: block;
+//     }
+
+//     h3 {
+//         font-size: 3vw;
+//     }
+    
+//     h3::after {
+//         background-color: #8C52FF;
+//         height: 4px;
+//         width: 40px;
+//         position: relative;
+//         content: "";
+//         display: block;
+//         margin-top: 1%;
+//     }
+    
+//     p {
+//         font-size: 2vw;
+//     }
+    
+//     ul {
+//         font-size: 2vw;
+//     }
+// }
+
+// @media screen and (min-width: 768px)   {
+//     h2  {
+//         font-size: 7vw;
+//     }
+    
+//     h3  {
+//         font-size: 6vw;
+//     }
+    
+//     p   {
+//         font-size: 4vw;
+//     }
+
+//     ul {
+//         font-size: 4vw;
+//     }
+
+// }
+
+// @media screen and (max-width: 896px) and (orientation: landscape) {
+
+//     h2  {
+//         font-size: 5vw;
+//     }
+    
+//     h3  {
+//         font-size: 3vw;
+//     }
+    
+//     p   {
+//         font-size: 2vw;
+//     }
+
+//     ul {
+//         font-size: 2vw;
+//     }
+
+
+// }
+
+// @media screen and (min-width: 912px)   {
+//     h2 {
+//         font-size: 5.6vw;
+//     }
+    
+//     h3  {
+//         font-size: 4vw;
+//     }
+    
+//     p   {
+//         font-size: 2vw;
+//     }
+
+//     ul {
+//         font-size: 2vw;
+//     }
+
+// }
+
+// @media screen and (min-width: 1024px) {
+//     h2  {
+//         font-size: 6vw;
+//     }
+
+//     h3 {
+//         font-size: 2.8vw;
+//     }
+    
+//     p {
+//         font-size: 1.8vw;
+//     }
+
+//     ul {
+//         font-size: 1.8vw;
+//     }
+// }
+
+// @media screen and (min-width: 1440px)   {
+//     h2 {
+//         font-size: 3.4vw;
+//     }
+
+//     h3 {
+//         font-size: 1.85vw;
+//     }
+
+//     p {
+//         font-size: 1.2vw;
+//     }
+
+//     ul {
+//         font-size: 1.2vw;
+//     }
+
+//     li {
+//         font-size: 1.2vw;
+//     };
+// }
+

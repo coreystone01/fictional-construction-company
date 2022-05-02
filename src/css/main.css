@@ -5,9 +5,21 @@ body {
 p {
   font-weight: 400; }
 
-body {
-  margin: 0%;
-  padding: 0%; }
+/* Style Resets */
+* {
+  margin: 0;
+  padding: 0; }
+  *::before, *::after {
+    box-sizing: inherit; }
+
+img {
+  max-width: 100%; }
+
+html, body {
+  font-family: "Georama", sans-serif; }
+
+a {
+  text-decoration: none; }
 
 .is-flex,
 .is-flex--row,
@@ -45,7 +57,10 @@ body {
   align-items: baseline; }
 
 .icon {
-  background: #FAD744; }
+  background: #FAD744;
+  margin-right: 2%;
+  border-radius: 50%;
+  text-align: center; }
 
 .container {
   flex-grow: 1;
