@@ -52,19 +52,15 @@ ul {
     flex-direction: column;
     align-items: baseline; }
   .is-flex--row--is-centered {
-    justify-content: center;
-    align-items: baseline; }
+    justify-content: center; }
   .is-flex--column-is-centered {
-    justify-content: center;
-    align-items: baseline; }
+    justify-content: center; }
 
 .justify-start {
-  justify-content: start;
-  align-items: baseline; }
+  justify-content: start; }
 
 .justify-end {
-  justify-content: end;
-  align-items: baseline; }
+  justify-content: end; }
 
 .icon {
   background: #FAD744;
@@ -76,7 +72,8 @@ ul {
   flex-grow: 1;
   margin: 0 auto;
   position: relative;
-  width: auto; }
+  width: auto;
+  height: inherit; }
 
 .top-bar {
   padding: 0.5%;
@@ -92,11 +89,16 @@ ul {
 .navbar {
   display: flex;
   flex-grow: 1;
-  background: #EF5455; }
+  align-items: center;
+  background: #EF5455;
+  color: #2B3252; }
+  @media (min-width: 1224px) and (orientation: portrait) {
+    .navbar {
+      font-size: larger;
+      font-weight: bold; } }
 
 .nav-menu {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: baseline;
   flex-grow: 1; }

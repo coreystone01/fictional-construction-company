@@ -13,6 +13,13 @@ $italic: italic;
 $body-font: 'Georama',
 sans-serif;
 
+// breakpoints
+$sm-phone: 375px;
+$lg-phone: 376px;
+$tablet: 768px;
+$laptop: 1224px;
+$desktop: 1920px;
+
 body    {
     font-family: $body-font;
     @include fluid-typography(16,24,300,1500);

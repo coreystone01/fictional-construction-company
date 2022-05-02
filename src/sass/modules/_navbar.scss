@@ -1,13 +1,21 @@
-.navbar {
+.navbar,
+%navbar {
     display: flex;
     flex-grow: 1;
+    @include align-items('center');
     background: $red;
+    color: $blue;
+    @include responsive('laptop'){
+        font-size: larger;
+        font-weight: bold;
+    };    
 }
 
-.nav-menu   {
+.nav-menu,
+%nav-menu  {
     display: flex;
     flex-direction: row;
     @include justify('space-around');
-    @include align-items('center');
+    // @include align-items('center');
     flex-grow: 1;
 }
