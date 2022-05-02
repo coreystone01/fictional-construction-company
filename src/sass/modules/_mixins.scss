@@ -31,11 +31,11 @@
         justify-content: end;
         align-items: baseline;
     }
-    @if $position == 'space around'{
+    @if $position == 'space-around'{
         justify-content: space-around;
         align-items: baseline;
     }
-    @if $position == 'space between'{
+    @if $position == 'space-between'{
         justify-content: space-between;
         align-items: baseline;
     }

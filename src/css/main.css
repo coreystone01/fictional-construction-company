@@ -36,6 +36,9 @@ html, body {
 a {
   text-decoration: none; }
 
+ul {
+  list-style: none; }
+
 .is-flex,
 .is-flex--row,
 .is-flex--column,
@@ -61,14 +64,6 @@ a {
 
 .justify-end {
   justify-content: end;
-  align-items: baseline; }
-
-.justify-space-around {
-  justify-content: space-around;
-  align-items: baseline; }
-
-.justify-between {
-  justify-content: space-between;
   align-items: baseline; }
 
 .icon {
@@ -102,4 +97,6 @@ a {
 .nav-menu {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
   gap: 8%; }

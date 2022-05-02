@@ -20,12 +20,10 @@ html, body  {
 
 a {
     text-decoration: none;   
-    // use ampersand to nest elements that are the same
-    // &:focus  {
-    //     background: #545454;
-    //     color: #fff;
-    // }
+}
 
+ul  {
+    list-style: none;
 }
 
 
