@@ -1,0 +1,13 @@
+.top-bar,
+%top-bar
+{
+    padding: 0.5%;
+    background-color: $blue;
+    display: flex;
+
+    &__social-media {
+        @extend %top-bar;
+        text-align: end;
+        justify-content: end;
+    }
+}

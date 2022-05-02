@@ -1,0 +1,15 @@
+// .container  
+// 	display: flex;
+// 	gap: 10%;
+// 	height: 3vh;
+// 	width: 8vw;
+// 	justify-content: center;
+// 
+
+.container {
+	@extend %is-flex;
+	flex-grow: 1;
+	margin: 0 auto;
+	position: relative;
+	width: auto;
+  }

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+$red: #EF5455;
+$yellow: #FAD744;
+$blue: #2B3252;
+$light-grey: #C4C4C4;
+$black: #000000;
+$light-weight: 300;
+$normal-weight: 400;
+$heavy-weight: 700;
+$italic: italic;
+
+$body-font: 'Georama',
+sans-serif;
+
+body    {
+    font-family: $body-font;
+}
+
+p   {
+    font-weight: $normal-weight;
+}

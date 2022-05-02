@@ -1,0 +1,47 @@
+// $breakpoint variables are imported from the _config.scss partial file, they are considered global variables
+
+@mixin responsive($breakpoint, $orientation: portrait){
+    @if ($breakpoint == sm-phone) {
+        @media (max-width: $sm-phone) and (orientation: $orientation) { @content };
+    }
+    @if ($breakpoint == lg-phone) {
+        @media (min-width: $lg-phone ) and (orientation: $orientation) { @content };
+    }
+    @if ($breakpoint == tablet) {
+        @media (min-width: $tablet) and (orientation: $orientation) { @content };
+    }
+    @if ($breakpoint == laptop) {
+        @media (min-width: $laptop) and (orientation: $orientation) { @content };
+    }
+    @if ($breakpoint == desktop) {
+        @media (min-width: $desktop) { @content };
+    }
+}
+
+@mixin justify($position) {
+    @if $position == 'start' {
+        justify-content: start;
+        align-items: baseline;
+    }
+    @if $position == 'center' {
+        justify-content: center;
+        align-items: baseline;
+    }
+    @if $position == 'end' {
+        justify-content: end;
+        align-items: baseline;
+    }    
+}
+
+@mixin flex-direction($direction) {
+    @if $direction == 'row' {
+        flex-direction: row;
+        align-items: baseline;
+    }
+    @if $direction == 'column' {
+        flex-direction:column;
+        justify-content: center;
+        align-items: baseline;
+    }
+    
+}
