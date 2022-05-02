@@ -77,6 +77,9 @@ ul {
 
 .header-title {
   flex-grow: 1; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .header-title {
+      text-align: center; } }
 
 .navbar {
   display: flex;
@@ -94,3 +97,7 @@ ul {
   flex-direction: row;
   flex-grow: 1;
   justify-content: space-around; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .nav-menu {
+      gap: 5%;
+      font-weight: 700; } }

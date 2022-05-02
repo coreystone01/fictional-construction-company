@@ -16,5 +16,9 @@
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    @include justify('space-around'); 
+    @include justify('space-around');
+    @include responsive('sm-phone'){
+        gap: 5%;
+        font-weight: $heavy-weight;
+    } 
 }

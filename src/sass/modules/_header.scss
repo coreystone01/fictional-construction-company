@@ -12,4 +12,7 @@
 
 .header-title   {
     flex-grow: 1;
+    @include responsive('sm-phone'){
+        text-align: center;
+    }
 }
