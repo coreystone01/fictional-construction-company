@@ -31,11 +31,9 @@ ul {
 .is-flex--column-is-centered {
   display: flex; }
   .is-flex--row {
-    flex-direction: row;
-    align-items: baseline; }
+    flex-direction: row; }
   .is-flex--column {
-    flex-direction: column;
-    align-items: baseline; }
+    flex-direction: column; }
   .is-flex--row--is-centered {
     justify-content: center; }
   .is-flex--column-is-centered {
@@ -73,6 +71,9 @@ ul {
 .header {
   background: #EF5455;
   height: 15vh; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .header .container {
+      flex-direction: column; } }
 
 .header-title {
   flex-grow: 1; }

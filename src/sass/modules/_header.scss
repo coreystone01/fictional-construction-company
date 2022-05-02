@@ -1,6 +1,13 @@
 .header {
     background: $red;
     height: 15vh;
+
+    @include responsive('sm-phone'){
+        .container{
+            @include flex-direction('column');
+        }
+        
+    }
 }
 
 .header-title   {

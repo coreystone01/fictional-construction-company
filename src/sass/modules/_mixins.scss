@@ -60,11 +60,9 @@
 @mixin flex-direction($direction) {
     @if $direction == 'row' {
         flex-direction: row;
-        align-items: baseline;
     }
     @if $direction == 'column' {
         flex-direction:column;
-        align-items: baseline;
     }
     
 }
