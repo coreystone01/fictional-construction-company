@@ -28,8 +28,20 @@ body {
     justify-content: center;
     align-items: baseline; }
 
+.justify-start {
+  justify-content: start;
+  align-items: baseline; }
+
 .justify-end {
   justify-content: end;
+  align-items: baseline; }
+
+.justify-space-around {
+  justify-content: space-around;
+  align-items: baseline; }
+
+.justify-between {
+  justify-content: space-between;
   align-items: baseline; }
 
 .icon {

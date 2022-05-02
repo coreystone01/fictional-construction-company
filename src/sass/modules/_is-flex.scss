@@ -23,6 +23,19 @@
     }
 }
 
+.justify-start{
+    @include justify('start');
+}
+
 .justify-end{
     @include justify('end');
 }
+
+.justify-space-around   {
+    @include justify('space around');
+}
+
+.justify-between    {
+    @include justify('space between');
+}
+
