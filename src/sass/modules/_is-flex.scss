@@ -2,40 +2,50 @@
 %is-flex    {
     display: flex;
 
-    &--row{
+    &--row,
+    &%--row{
         @extend %is-flex;
         @include flex-direction('row');
     }
 
-    &--column{
+    &--column,
+    &%--column{
         @extend %is-flex;
         @include flex-direction('column');
     }
 
-    &--row--is-centered{
+    &--row--is-centered,
+    &%--row--is-centered{
         @extend %is-flex;
         @include justify('center');
     }
 
-    &--column-is-centered{
+    &--column-is-centered,
+    &%--column--is-centered{
         @extend%is-flex;
         @include justify('center');
     }
 }
 
-.justify-start{
+.justify-start,
+%justify-start{
     @include justify('start');
 }
 
-.justify-end{
+.justify-end,
+%justify-end{
     @include justify('end');
 }
 
-.justify-space-around   {
+.justify-space-around,
+%justify-space-around
+{
     @include justify('space around');
 }
 
-.justify-between    {
+.justify-between,
+%justify-between
+{
     @include justify('space between');
 }
 

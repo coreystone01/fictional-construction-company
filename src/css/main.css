@@ -75,3 +75,12 @@ a {
 .header {
   background: #EF5455;
   height: 15vh; }
+
+.navbar {
+  display: flex;
+  flex-grow: 1; }
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 8%; }
