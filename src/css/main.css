@@ -62,6 +62,9 @@ ul {
 .justify-end {
   justify-content: end; }
 
+.align-items--center {
+  align-items: center; }
+
 .icon {
   background: #FAD744;
   margin-right: 2%;
@@ -92,7 +95,7 @@ ul {
   align-items: center;
   background: #EF5455;
   color: #2B3252; }
-  @media (min-width: 1224px) and (orientation: portrait) {
+  @media (min-width: 768px) and (orientation: portrait) {
     .navbar {
       font-size: larger;
       font-weight: bold; } }
@@ -100,5 +103,5 @@ ul {
 .nav-menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  flex-grow: 1; }
+  flex-grow: 1;
+  justify-content: space-around; }

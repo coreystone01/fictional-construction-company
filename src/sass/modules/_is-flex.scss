@@ -49,3 +49,7 @@
     @include justify('space between');
 }
 
+.align-items--center{
+    @include align-items('center');
+}
+
