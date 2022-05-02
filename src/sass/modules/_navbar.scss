@@ -8,5 +8,5 @@
     display: flex;
     flex-direction: row;
     @include justify('space-around');
-	gap: 8%;
+    flex-grow: 1;
 }

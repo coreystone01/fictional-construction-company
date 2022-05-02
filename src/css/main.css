@@ -10,12 +10,12 @@ body {
   @media (min-width: 300px) and (max-width: 1499px) {
     body {
       /* Adds a fallback for unsupported browsers */
-      font-size: 22px;
+      font-size: 20px;
       /* The fluid typography magic 🌟  */
-      font-size: calc(16px + (28 - 16) * (100vw - 300px) / (1500 - 300)); } }
+      font-size: calc(16px + (24 - 16) * (100vw - 300px) / (1500 - 300)); } }
   @media (min-width: 1500px) {
     body {
-      font-size: 28px; } }
+      font-size: 24px; } }
 
 p {
   font-weight: 400; }
@@ -99,4 +99,4 @@ ul {
   flex-direction: row;
   justify-content: space-around;
   align-items: baseline;
-  gap: 8%; }
+  flex-grow: 1; }

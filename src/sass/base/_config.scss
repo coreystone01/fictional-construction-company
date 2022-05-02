@@ -15,7 +15,7 @@ sans-serif;
 
 body    {
     font-family: $body-font;
-    @include fluid-typography(16,28,300,1500);
+    @include fluid-typography(16,24,300,1500);
 }
 
 p   {
