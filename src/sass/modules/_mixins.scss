@@ -21,24 +21,35 @@
 @mixin justify($position) {
     @if $position == 'start' {
         justify-content: start;
-        align-items: baseline;
     }
     @if $position == 'center' {
         justify-content: center;
-        align-items: baseline;
     }
     @if $position == 'end' {
         justify-content: end;
-        align-items: baseline;
     }
     @if $position == 'space-around'{
         justify-content: space-around;
-        align-items: baseline;
     }
     @if $position == 'space-between'{
         justify-content: space-between;
+    }
+}
+
+@mixin align-items($position) {
+    @if $position == 'baseline'{
         align-items: baseline;
     }
+    @if position == 'center' {
+        align-items: center;
+    }
+    @if position == 'end' {
+        align-items: flex-end;        
+    }
+    @if position == 'start' {
+        align-items: flex-start;        
+    }
+    
 }
 
 

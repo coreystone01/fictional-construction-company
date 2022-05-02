@@ -8,5 +8,6 @@
     display: flex;
     flex-direction: row;
     @include justify('space-around');
+    @include align-items('center');
     flex-grow: 1;
 }
