@@ -4,3 +4,33 @@ body {
 
 p {
   font-weight: 400; }
+
+body {
+  margin: 0%;
+  padding: 0%; }
+
+.is-flex,
+.container {
+  display: flex; }
+
+.top-bar,
+.top-bar__social-media {
+  padding: 0.5%;
+  background-color: #2B3252;
+  display: flex; }
+  .top-bar__social-media {
+    text-align: end;
+    justify-content: end; }
+
+.icon {
+  background: #FAD744; }
+
+.container {
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto; }
+
+.header {
+  background: #EF5455;
+  height: 15vh; }

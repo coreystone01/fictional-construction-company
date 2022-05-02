@@ -12,7 +12,6 @@
   "license": "MIT",
   "dependencies": {
     "bulma": "^0.9.3",
-    "node-sass": "^7.0.1",
-    "normalize.css": "^8.0.1"
+    "node-sass": "^7.0.1"
   }
 }
