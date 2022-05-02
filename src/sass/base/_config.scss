@@ -9,6 +9,8 @@ $light-weight: 300;
 $normal-weight: 400;
 $heavy-weight: 700;
 $italic: italic;
+$base-font-size: 16px;
+
 
 $body-font: 'Georama',
 sans-serif;
@@ -22,7 +24,7 @@ $desktop: 1920px;
 
 body    {
     font-family: $body-font;
-    @include fluid-typography(16,24,300,1500);
+    // @include fluid-typography(16,24,300,1500);
 }
 
 p   {

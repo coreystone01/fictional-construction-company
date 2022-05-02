@@ -7,7 +7,7 @@
     color: $blue;
     @include responsive('tablet'){
         font-size: larger;
-        font-weight: bold;
+        font-weight: $heavy-weight;
     };    
 }
 

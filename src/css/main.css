@@ -1,21 +1,6 @@
-@charset "UTF-8";
-/* Define the mixin */
 @import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 body {
-  font-family: "Georama", sans-serif;
-  /* Define variable for media query */
-  /* Define variable for fallback */
-  /* Base font size */
-  font-size: 16px; }
-  @media (min-width: 300px) and (max-width: 1499px) {
-    body {
-      /* Adds a fallback for unsupported browsers */
-      font-size: 20px;
-      /* The fluid typography magic 🌟  */
-      font-size: calc(16px + (24 - 16) * (100vw - 300px) / (1500 - 300)); } }
-  @media (min-width: 1500px) {
-    body {
-      font-size: 24px; } }
+  font-family: "Georama", sans-serif; }
 
 p {
   font-weight: 400; }
@@ -81,6 +66,9 @@ ul {
 .top-bar {
   padding: 0.5%;
   background-color: #2B3252; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .top-bar {
+      font-size: 16px; } }
 
 .header {
   background: #EF5455;
@@ -98,7 +86,7 @@ ul {
   @media (min-width: 768px) and (orientation: portrait) {
     .navbar {
       font-size: larger;
-      font-weight: bold; } }
+      font-weight: 700; } }
 
 .nav-menu {
   display: flex;
