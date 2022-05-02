@@ -1,6 +1,21 @@
+@charset "UTF-8";
+/* Define the mixin */
 @import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 body {
-  font-family: "Georama", sans-serif; }
+  font-family: "Georama", sans-serif;
+  /* Define variable for media query */
+  /* Define variable for fallback */
+  /* Base font size */
+  font-size: 16px; }
+  @media (min-width: 300px) and (max-width: 1499px) {
+    body {
+      /* Adds a fallback for unsupported browsers */
+      font-size: 22px;
+      /* The fluid typography magic 🌟  */
+      font-size: calc(16px + (28 - 16) * (100vw - 300px) / (1500 - 300)); } }
+  @media (min-width: 1500px) {
+    body {
+      font-size: 28px; } }
 
 p {
   font-weight: 400; }
