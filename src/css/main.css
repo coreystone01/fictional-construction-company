@@ -13,14 +13,11 @@ body {
 .container {
   display: flex; }
 
-.top-bar,
-.top-bar__social-media {
-  padding: 0.5%;
-  background-color: #2B3252;
-  display: flex; }
-  .top-bar__social-media {
-    text-align: end;
-    justify-content: end; }
+.justify-center {
+  justify-content: center; }
+
+.justify-end {
+  justify-content: end; }
 
 .icon {
   background: #FAD744; }
@@ -30,6 +27,15 @@ body {
   margin: 0 auto;
   position: relative;
   width: auto; }
+
+.top-bar,
+.top-bar__social-media {
+  padding: 0.5%;
+  background-color: #2B3252;
+  display: flex; }
+  .top-bar__social-media {
+    text-align: end;
+    justify-content: end; }
 
 .header {
   background: #EF5455;
