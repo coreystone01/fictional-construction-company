@@ -1,4 +1,28 @@
 .is-flex,
 %is-flex    {
     display: flex;
+
+    &--row{
+        @extend %is-flex;
+        @include flex-direction('row');
+    }
+
+    &--column{
+        @extend %is-flex;
+        @include flex-direction('column');
+    }
+
+    &--row--is-centered{
+        @extend %is-flex;
+        @include justify('center');
+    }
+
+    &--column-is-centered{
+        @extend%is-flex;
+        @include justify('center');
+    }
+}
+
+.justify-end{
+    @include justify('end');
 }

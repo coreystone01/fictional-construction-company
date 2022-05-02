@@ -30,8 +30,21 @@
     @if $position == 'end' {
         justify-content: end;
         align-items: baseline;
-    }    
+    }
+    @if $position == 'space around'{
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    @if $position == 'space between'{
+        justify-content: space-between;
+        align-items: baseline;
+    }
 }
+
+
+// @mixin align-items($alignment){
+//     @if $alignment == {}
+// }
 
 @mixin flex-direction($direction) {
     @if $direction == 'row' {
@@ -40,7 +53,6 @@
     }
     @if $direction == 'column' {
         flex-direction:column;
-        justify-content: center;
         align-items: baseline;
     }
     

@@ -3,11 +3,9 @@
 {
     padding: 0.5%;
     background-color: $blue;
-    display: flex;
 
-    &__social-media {
-        @extend %top-bar;
-        text-align: end;
-        justify-content: end;
-    }
+    // &__social-media {
+    //     @extend %top-bar;
+    //     @include justify(end);
+    // }
 }
