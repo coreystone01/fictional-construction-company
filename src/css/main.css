@@ -76,9 +76,13 @@ a {
   background: #EF5455;
   height: 15vh; }
 
+.header-title {
+  flex-grow: 1; }
+
 .navbar {
   display: flex;
-  flex-grow: 1; }
+  flex-grow: 1;
+  background: #EF5455; }
 
 .nav-menu {
   display: flex;
