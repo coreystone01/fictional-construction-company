@@ -73,6 +73,10 @@ ul {
   width: auto;
   height: inherit; }
 
+.container__one-column {
+  width: 80%;
+  background-color: #C4C4C4; }
+
 .top-bar {
   padding: 0.5%;
   background-color: #2B3252; }
@@ -139,6 +143,7 @@ ul {
       width: 90vw;
       height: 45vh;
       gap: 5%;
+      margin: 8%;
       border-radius: 15px;
       box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5); } }
 
