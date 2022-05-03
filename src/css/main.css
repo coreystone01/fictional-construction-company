@@ -27,17 +27,17 @@ ul {
 .is-flex,
 .is-flex--row,
 .is-flex--column,
-.is-flex--row--is-centered,
-.is-flex__column-is-centered,
+.is-flex--row__is-centered,
+.is-flex--column__is-centered,
 .card-banner {
   display: flex; }
   .is-flex--row {
     flex-direction: row; }
   .is-flex--column {
     flex-direction: column; }
-  .is-flex--row--is-centered {
+  .is-flex--row__is-centered {
     justify-content: center; }
-  .is-flex__column-is-centered {
+  .is-flex--column__is-centered {
     justify-content: center; }
 
 .justify-start {
@@ -136,7 +136,7 @@ ul {
   align-items: center; }
   @media (max-width: 375px) and (orientation: portrait) {
     .card {
-      width: 75vw;
+      width: 90vw;
       height: 45vh;
       margin: 4%;
       border-radius: 15px;
