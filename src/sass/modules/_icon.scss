@@ -12,6 +12,7 @@
     width: 5vw;
     height: 5vh;
     border-radius: 50%;
+    color: $red;
     // border: 2px solid black;
     // margin-top: -10%;
     @include responsive('sm-phone'){

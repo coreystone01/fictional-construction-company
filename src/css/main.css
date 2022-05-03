@@ -60,7 +60,8 @@ ul {
   justify-content: center;
   width: 5vw;
   height: 5vh;
-  border-radius: 50%; }
+  border-radius: 50%;
+  color: #EF5455; }
   @media (max-width: 375px) and (orientation: portrait) {
     .icon {
       font-size: 10vh; } }
@@ -102,8 +103,7 @@ ul {
   display: flex;
   flex-grow: 1;
   align-items: center;
-  background: #EF5455;
-  color: #2B3252; }
+  background: #EF5455; }
   @media (min-width: 768px) and (orientation: portrait) {
     .navbar {
       font-size: larger;
@@ -118,6 +118,9 @@ ul {
     .nav-menu {
       gap: 5%;
       font-weight: 700; } }
+
+.nav-link {
+  color: #2B3252; }
 
 .header {
   background: #EF5455;
