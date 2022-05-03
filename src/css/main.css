@@ -58,7 +58,7 @@ ul {
   color: #EF5455; }
   @media (max-width: 375px) and (orientation: portrait) {
     .icon {
-      font-size: 10vh; } }
+      font-size: 2em; } }
 
 .icon__social-media {
   background: #FAD744;
@@ -141,13 +141,14 @@ ul {
   background: #FAD744;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  width: auto;
+  height: auto; }
   @media (max-width: 375px) and (orientation: portrait) {
     .card {
-      width: 90vw;
-      height: 45vh;
       gap: 5%;
       margin: 8%;
+      padding: 4%;
       border-radius: 15px;
       box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5); } }
 
