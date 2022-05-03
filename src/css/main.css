@@ -75,7 +75,11 @@ ul {
 
 .container__one-column {
   width: 80%;
+  margin: auto;
   background-color: #C4C4C4; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .container__one-column {
+      width: 100%; } }
 
 .top-bar {
   padding: 0.5%;
@@ -178,3 +182,9 @@ ul {
   text-decoration: none;
   border: none;
   border-radius: 5px; }
+
+.article-title {
+  text-align: center; }
+
+.article-content {
+  text-align: center; }
