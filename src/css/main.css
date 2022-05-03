@@ -27,18 +27,12 @@ ul {
 .is-flex,
 .is-flex--row,
 .is-flex--column,
-.is-flex--row__is-centered,
-.is-flex--column__is-centered,
 .card-banner {
   display: flex; }
   .is-flex--row {
     flex-direction: row; }
   .is-flex--column {
     flex-direction: column; }
-  .is-flex--row__is-centered {
-    justify-content: center; }
-  .is-flex--column__is-centered {
-    justify-content: center; }
 
 .justify-start {
   justify-content: start; }

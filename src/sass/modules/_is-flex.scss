@@ -12,19 +12,20 @@
     &%--column{
         @extend %is-flex;
         @include flex-direction('column');
+
     }
 
-    &--row__is-centered,
-    &%--row__is-centered{
-        @extend %is-flex;
-        @include justify('center');
-    }
+    // &--row__is-centered,
+    // &%--row__is-centered{
+    //     @extend %is-flex;
+    //     @include justify('center');
+    // }
 
-    &--column__is-centered,
-    &%--column__is-centered{
-        @extend%is-flex;
-        @include justify('center');
-    }
+    // &--column__is-centered,
+    // &%--column__is-centered{
+    //     @extend%is-flex;
+    //     @include justify('center');
+    // }
 }
 
 .justify-start,
