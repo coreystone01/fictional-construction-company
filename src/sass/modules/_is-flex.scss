@@ -14,14 +14,14 @@
         @include flex-direction('column');
     }
 
-    &--row--is-centered,
-    &%--row--is-centered{
+    &--row__is-centered,
+    &%--row__is-centered{
         @extend %is-flex;
         @include justify('center');
     }
 
-    &__column-is-centered,
-    &%--column--is-centered{
+    &--column__is-centered,
+    &%--column__is-centered{
         @extend%is-flex;
         @include justify('center');
     }
