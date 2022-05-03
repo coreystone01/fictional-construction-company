@@ -52,6 +52,27 @@
     
 }
 
+@mixin align-content($content) {
+    @if $content == 'baseline'{
+        align-items: baseline;
+    }
+    @if $content == 'center' {
+        align-content: center;
+    }
+    @if $content == 'end' {
+        align-content: flex-end;        
+    }
+    @if $content == 'start' {
+        align-content: flex-start;        
+    }
+    @if $content == 'space-around' {
+        align-content: space-around;        
+    }
+    @if $content == 'space-between' {
+        align-content: space-between;        
+    }
+    
+}
 
 // @mixin align-items($alignment){
 //     @if $alignment == {}
