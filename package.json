@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "bulma": "^0.9.3",
-    "node-sass": "^7.0.1"
+    "node-sass": "^7.0.1",
+    "tiny-slider": "^2.9.4"
   }
 }
