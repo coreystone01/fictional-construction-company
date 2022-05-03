@@ -101,3 +101,16 @@ ul {
     .nav-menu {
       gap: 5%;
       font-weight: 700; } }
+
+.header {
+  background: #EF5455;
+  height: 15vh; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .header .container {
+      flex-direction: column; } }
+
+.header-title {
+  flex-grow: 1; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .header-title {
+      text-align: center; } }

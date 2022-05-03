@@ -1,4 +1,22 @@
-.icon  {
+// .icon  {
+//     background: $yellow;
+//     margin-right: 2%;
+//     border-radius: 50%;
+//     text-align: center;
+// }
+.icon   {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 50%;
+    border: 2px solid black;
+    // margin-top: -10%;
+}
+
+.icon__social-media{
     background: $yellow;
     margin-right: 2%;
     border-radius: 50%;

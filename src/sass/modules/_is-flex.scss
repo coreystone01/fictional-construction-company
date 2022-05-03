@@ -32,6 +32,11 @@
     @include justify('start');
 }
 
+.justify-center,
+%justify-center{
+    @include justify('center');
+}
+
 .justify-end,
 %justify-end{
     @include justify('end');
