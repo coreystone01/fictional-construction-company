@@ -20,7 +20,7 @@
         @include justify('center');
     }
 
-    &--column-is-centered,
+    &__column-is-centered,
     &%--column--is-centered{
         @extend%is-flex;
         @include justify('center');

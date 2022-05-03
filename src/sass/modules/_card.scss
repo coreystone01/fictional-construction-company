@@ -25,6 +25,7 @@
     background: $yellow;
     display: flex;
     flex-direction: column;
+    align-items: center;
     @include responsive(sm-phone){
         width: 75vw;
         height: 45vh;
@@ -45,6 +46,19 @@
     @include responsive(sm-phone){
         height: 12vh;
     }	
+}
+
+.card-body  {
+    text-align: center;
+    margin: 2%;
+}
+
+.card-body-title    {
+    margin: 2%;
+}
+
+.card-body-content  {
+    text-align: left;
 }
 
 .bttn-jelly.bttn-primary {
