@@ -184,7 +184,12 @@ ul {
   border-radius: 5px; }
 
 .article-title {
-  text-align: center; }
+  text-align: center;
+  padding: 4%; }
 
 .article-content {
-  text-align: center; }
+  text-align: center;
+  padding: 4%; }
+
+.comprehensive-services {
+  background-color: #2B3252; }
