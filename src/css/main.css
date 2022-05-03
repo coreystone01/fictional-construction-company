@@ -61,6 +61,9 @@ ul {
   width: 5vw;
   height: 5vh;
   border-radius: 50%; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .icon {
+      font-size: 10vh; } }
 
 .icon__social-media {
   background: #FAD744;
@@ -138,7 +141,6 @@ ul {
     .card {
       width: 90vw;
       height: 45vh;
-      margin: 4%;
       border-radius: 15px;
       box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5); } }
 
@@ -149,17 +151,19 @@ ul {
   border-radius: 15px 15px 0 0; }
   @media (max-width: 375px) and (orientation: portrait) {
     .card-banner {
-      height: 12vh; } }
+      height: 16vh; } }
 
 .card-body {
-  text-align: center;
   margin: 2%; }
 
 .card-body-title {
-  margin: 2%; }
+  text-align: center; }
 
 .card-body-content {
   text-align: left; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .card-body-content {
+      text-align: center; } }
 
 .bttn-jelly.bttn-primary {
   background: #FAD744;

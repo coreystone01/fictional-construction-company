@@ -29,7 +29,7 @@
     @include responsive(sm-phone){
         width: 90vw;
         height: 45vh;
-        margin: 4%;
+        // margin: 4%;
         border-radius: 15px;
         box-shadow: 0px 1rem 1.5rem rgba(black, 0.5);
     }
@@ -44,21 +44,24 @@
     @extend %is-flex;
 	@extend %justify-center;
     @include responsive(sm-phone){
-        height: 12vh;
+        height: 16vh;
     }	
 }
 
 .card-body  {
-    text-align: center;
+    // text-align: center;
     margin: 2%;
 }
 
 .card-body-title    {
-    margin: 2%;
+    text-align: center;
 }
 
 .card-body-content  {
     text-align: left;
+    @include responsive('sm-phone'){
+        text-align: center;
+    }
 }
 
 .bttn-jelly.bttn-primary {
