@@ -58,7 +58,7 @@ ul {
   color: #EF5455; }
   @media (max-width: 375px) and (orientation: portrait) {
     .icon {
-      font-size: 2em; } }
+      font-size: 3em; } }
 
 .icon__social-media {
   background: #FAD744;
@@ -183,6 +183,15 @@ ul {
   text-decoration: none;
   border: none;
   border-radius: 5px; }
+  .button--is-round {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media (max-width: 375px) and (orientation: portrait) {
+      .button--is-round {
+        width: 40vw;
+        height: 18vh; } }
 
 .article-title {
   text-align: center;
