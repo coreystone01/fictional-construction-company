@@ -105,7 +105,8 @@ ul {
       flex-direction: column; } }
 
 .header-title {
-  flex-grow: 1; }
+  flex-grow: 1;
+  color: #2B3252; }
   @media (max-width: 375px) and (orientation: portrait) {
     .header-title {
       text-align: center; } }
@@ -141,7 +142,8 @@ ul {
       flex-direction: column; } }
 
 .header-title {
-  flex-grow: 1; }
+  flex-grow: 1;
+  color: #2B3252; }
   @media (max-width: 375px) and (orientation: portrait) {
     .header-title {
       text-align: center; } }
