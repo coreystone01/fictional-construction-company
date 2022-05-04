@@ -1,7 +1,6 @@
 @import './src/sass/modules/mixins';
 @import './src/sass/base/_config.scss';
 @import './src/sass/base/_reset';
-// @import './src/sass/modules/_helpers';
 @import './src/sass/modules/is-flex';
 @import './src/sass/modules/_icon';
 @import './src/sass/modules/_container';
@@ -14,6 +13,5 @@
 @import './src/sass/modules/article';
 @import './src/sass/state/comprehensive-services';
 @import './src/sass/modules/_slider';
-
-// @import './node_modules/bulma/bulma.sass';
+@import './src/sass/modules/reviews';
 

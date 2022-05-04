@@ -3,16 +3,17 @@
     height: 250px;
 }
 
+// The actual slider container (set height, layout here)
 .slider {
     display: flex;
     flex-direction: row;
     margin: auto;
-    background-color: #fff;
 }
 
+// The slides themeselves so here we will setup what they look like (set height, color, background, alignment, etc.)
 .slide-container {
 	height: 30vh;
-	background-color: $red;
+	background-color: #fff;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
@@ -20,12 +21,19 @@
 	align-items: center;
 }
 
+// Style the actual slide content, could be font, images, etc.
 .slide-item {
-    color: $black;
-    // display: flex;
-	// flex-direction: column;
-    // justify-content: center;
+    // color: $black;
+    padding: 5%;
 }
 
+.slide-content-header   {
+    color: $red;
+}
+
+.slide-content-body {
+    color: $blue;
+    font-weight: $light-weight;
+}
 
 

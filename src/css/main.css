@@ -202,12 +202,11 @@ ul {
 .slider {
   display: flex;
   flex-direction: row;
-  margin: auto;
-  background-color: #fff; }
+  margin: auto; }
 
 .slide-container {
   height: 30vh;
-  background-color: #EF5455;
+  background-color: #fff;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -215,4 +214,11 @@ ul {
   align-items: center; }
 
 .slide-item {
-  color: #000000; }
+  padding: 5%; }
+
+.slide-content-header {
+  color: #EF5455; }
+
+.slide-content-body {
+  color: #2B3252;
+  font-weight: 300; }
