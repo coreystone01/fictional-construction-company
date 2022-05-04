@@ -216,9 +216,6 @@ ul {
   background-color: #2B3252;
   padding: 4%; }
 
-.reviews {
-  height: 250px; }
-
 .slider {
   display: flex;
   flex-direction: row;
@@ -245,3 +242,6 @@ ul {
 
 .reviews {
   height: auto; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .reviews {
+      padding: 4%; } }
