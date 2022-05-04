@@ -1,6 +1,4 @@
-// yourScript.js
-// import { tns } from "./node_modules/tiny-slider/src/tiny-slider"
-
+// tiny slider
 let slider = tns({
     container: ".slider",
     "slideBy": "1",
@@ -20,19 +18,3 @@ let slider = tns({
         }
     }
 })
-
-// $(document).ready(function () {
-//     let interval = window.setInterval(rotateSlides, 3000)
-
-//     function rotateSlides(){
-//         let $firstSlide = $('.slider').find('div:first');
-//         let width = $firstSlide.width();
-
-//         $firstSlide.animate({marginLeft: -width}, 1000, function(){
-//             let $lastSlide = $('.slider').find('div:last')
-//             $lastSlide.after($firstSlide);
-//             $firstSlide.css({marginLeft: 0})
-//         })
-//     }
-// });
-

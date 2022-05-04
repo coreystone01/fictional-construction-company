@@ -1,7 +1,6 @@
 // make sure to install tiny-slider in order to implement the js component
 .reviews    {
     height: 250px;
-    border: 1px solid black;
 }
 
 .slider {
@@ -11,18 +10,21 @@
     background-color: #fff;
 }
 
-.slide-container    {
-    height: 30vh;
-    background-color: $red;
-    margin: auto;
-    display: flex;
+.slide-container {
+	height: 30vh;
+	background-color: $red;
+	margin: auto;
+	display: flex;
 	flex-direction: column;
-    justify-content: center;
-
+	justify-content: center;
+	align-items: center;
 }
 
 .slide-item {
     color: $black;
+    // display: flex;
+	// flex-direction: column;
+    // justify-content: center;
 }
 
 

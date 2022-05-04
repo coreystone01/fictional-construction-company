@@ -197,8 +197,7 @@ ul {
   padding: 4%; }
 
 .reviews {
-  height: 250px;
-  border: 1px solid black; }
+  height: 250px; }
 
 .slider {
   display: flex;
@@ -212,7 +211,8 @@ ul {
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
 
 .slide-item {
   color: #000000; }
