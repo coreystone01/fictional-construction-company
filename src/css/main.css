@@ -159,7 +159,7 @@ ul {
     .card {
       gap: 0.8rem;
       margin: 8%;
-      padding: 4%;
+      padding: 8%;
       border-radius: 15px;
       box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5); } }
 
@@ -170,7 +170,7 @@ ul {
   border-radius: 15px 15px 0 0; }
   @media (max-width: 375px) and (orientation: portrait) {
     .card-banner {
-      height: 15vh; } }
+      height: 10vh; } }
 
 .card-body {
   margin: 2%; }

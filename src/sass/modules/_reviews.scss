@@ -1,4 +1,7 @@
 // Use with the slider.scss partial and tinyslider.js app
 .reviews    {
     height: auto;
+    @include responsive('sm-phone'){
+        padding: 4%;
+    }
 }

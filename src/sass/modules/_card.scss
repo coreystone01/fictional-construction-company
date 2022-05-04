@@ -45,7 +45,7 @@
     @extend %is-flex;
 	@extend %justify-center;
     @include responsive(sm-phone){
-        height: 8vh;
+        height: 10vh;
     }	
 }
 
