@@ -4,25 +4,31 @@
 //     border-radius: 50%;
 //     text-align: center;
 // }
-.icon   {
+.icon,
+%icon   {
     display: flex;
     align-self: center;
     align-items: center;
     justify-content: center;
-    width: 5vw;
-    height: 5vh;
     border-radius: 50%;
     color: $red;
-    // border: 2px solid black;
-    // margin-top: -10%;
     @include responsive('sm-phone'){
         font-size: 3em;
+        width: 5vw;
+        height: 5vh;
     }
 }
 
 .icon__social-media{
+    @extend %icon;
     background: $yellow;
+    color: $blue;
     margin-right: 2%;
-    border-radius: 50%;
     text-align: center;
+    @include responsive('sm-phone'){
+        padding: 1%;
+        font-size: 1em;
+        width: 6vw;
+        height: 3vh;
+    }
 }
