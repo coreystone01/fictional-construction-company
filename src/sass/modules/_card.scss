@@ -29,7 +29,7 @@
     width: auto;
     height: auto;
     @include responsive(sm-phone){
-        gap: 5%;
+        gap: 0.8rem;
         margin: 8%;
         padding: 4%;
         border-radius: 15px;

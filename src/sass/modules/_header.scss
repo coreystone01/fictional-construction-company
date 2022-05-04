@@ -12,7 +12,7 @@
 
 .header-title   {
     flex-grow: 1;
-    color: #2B3252;
+    color: $blue;
     @include responsive('sm-phone'){
         text-align: center;
     }

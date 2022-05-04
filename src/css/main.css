@@ -157,7 +157,7 @@ ul {
   height: auto; }
   @media (max-width: 375px) and (orientation: portrait) {
     .card {
-      gap: 5%;
+      gap: 0.8rem;
       margin: 8%;
       padding: 4%;
       border-radius: 15px;
