@@ -4,8 +4,7 @@
     flex-grow: 1;
     @include align-items('center');
     background: $red;
-    @include responsive('tablet'){
-        font-size: larger;
+    @include responsive('sm-phone'){
         font-weight: $heavy-weight;
     };    
 }
@@ -17,7 +16,8 @@
     flex-grow: 1;
     @include justify('space-around');
     @include responsive('sm-phone'){
-        gap: 5%;
+        padding-top: 4%;
+        gap: 4%;
         font-weight: $heavy-weight;
     } 
 }

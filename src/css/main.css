@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-body {
+html, body {
   font-family: "Georama", sans-serif; }
 
-p {
-  font-weight: 400; }
+h2 {
+  font-size: clamp(1.75rem, 2.5vw, 2.5rem); }
+
+h3 {
+  font-size: clamp(1.4rem, 2.2vw, 2.5rem); }
+
+p, a {
+  font-size: clamp(1rem, 2vw, 2.5rem); }
 
 /* Style Resets */
 * {
@@ -15,11 +21,9 @@ p {
 img {
   max-width: 100%; }
 
-html, body {
-  font-family: "Georama", sans-serif; }
-
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: inherit; }
 
 ul {
   list-style: none; }
@@ -27,12 +31,19 @@ ul {
 .is-flex,
 .is-flex--row,
 .is-flex--column,
+.is-flex--container,
 .card-banner {
   display: flex; }
   .is-flex--row {
     flex-direction: row; }
   .is-flex--column {
     flex-direction: column; }
+  .is-flex--container {
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    height: inherit;
+    padding: 1%; }
 
 .justify-start {
   justify-content: start; }
@@ -98,11 +109,11 @@ ul {
       font-size: 16px; } }
 
 .header {
-  background: #EF5455;
-  height: 15vh; }
+  background: #EF5455; }
   @media (max-width: 375px) and (orientation: portrait) {
     .header .container {
-      flex-direction: column; } }
+      flex-direction: column;
+      padding: 4%; } }
 
 .header-title {
   flex-grow: 1;
@@ -116,9 +127,8 @@ ul {
   flex-grow: 1;
   align-items: center;
   background: #EF5455; }
-  @media (min-width: 768px) and (orientation: portrait) {
+  @media (max-width: 375px) and (orientation: portrait) {
     .navbar {
-      font-size: larger;
       font-weight: 700; } }
 
 .nav-menu {
@@ -128,18 +138,19 @@ ul {
   justify-content: space-around; }
   @media (max-width: 375px) and (orientation: portrait) {
     .nav-menu {
-      gap: 5%;
+      padding-top: 4%;
+      gap: 4%;
       font-weight: 700; } }
 
 .nav-link {
   color: #2B3252; }
 
 .header {
-  background: #EF5455;
-  height: 15vh; }
+  background: #EF5455; }
   @media (max-width: 375px) and (orientation: portrait) {
     .header .container {
-      flex-direction: column; } }
+      flex-direction: column;
+      padding: 4%; } }
 
 .header-title {
   flex-grow: 1;
@@ -157,7 +168,7 @@ ul {
   height: auto; }
   @media (max-width: 375px) and (orientation: portrait) {
     .card {
-      gap: 0.8rem;
+      gap: 1rem;
       margin: 8%;
       padding: 8%;
       border-radius: 15px;
@@ -212,10 +223,6 @@ ul {
   text-align: center;
   padding: 4%; }
 
-.comprehensive-services {
-  background-color: #2B3252;
-  padding: 4%; }
-
 .slider {
   display: flex;
   flex-direction: row;
@@ -245,3 +252,13 @@ ul {
   @media (max-width: 375px) and (orientation: portrait) {
     .reviews {
       padding: 4%; } }
+
+.comprehensive-services {
+  background-color: #2B3252;
+  padding: 4%; }
+
+.information-links .button--is-round {
+  background-color: #EF5455; }
+
+.information-links .icon {
+  color: #FAD744; }

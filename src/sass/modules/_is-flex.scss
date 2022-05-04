@@ -14,6 +14,15 @@
         @include flex-direction('column');
 
     }
+
+    &--container{
+        @extend %is-flex;
+        margin: 0 auto;
+        position: relative;
+        width: auto;
+        height: inherit;
+        padding: 1%;
+    }
 }
 
 .justify-start,
