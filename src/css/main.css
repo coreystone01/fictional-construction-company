@@ -79,7 +79,8 @@ ul {
   margin: 0 auto;
   position: relative;
   width: auto;
-  height: inherit; }
+  height: inherit;
+  padding: 1%; }
 
 .container__one-column {
   width: 80%;
