@@ -267,3 +267,10 @@ ul {
 
 .information-links .icon {
   color: #FAD744; }
+
+.locations {
+  background-color: #2B3252;
+  color: #EF5455; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .locations .container {
+      margin: 4%; } }

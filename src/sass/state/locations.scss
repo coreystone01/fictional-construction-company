@@ -1,0 +1,11 @@
+.locations  {
+    background-color: $blue;
+    color: $red;
+
+    .container  {
+        @include responsive('sm-phone'){
+            margin: 4%;
+        }
+        
+    }
+}
