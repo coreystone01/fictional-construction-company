@@ -31,6 +31,9 @@
 .slide-content-body {
     color: $blue;
     font-weight: $light-weight;
+    @include responsive('sm-phone'){
+        padding: 2%;
+    }
 }
 
 

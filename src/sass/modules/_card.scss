@@ -62,6 +62,8 @@
     text-align: left;
     @include responsive('sm-phone'){
         text-align: center;
+        padding: 2%;
+        font-weight: $light-weight;
     }
 }
 

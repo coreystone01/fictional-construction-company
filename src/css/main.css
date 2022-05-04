@@ -193,7 +193,9 @@ ul {
   text-align: left; }
   @media (max-width: 375px) and (orientation: portrait) {
     .card-body-content {
-      text-align: center; } }
+      text-align: center;
+      padding: 2%;
+      font-weight: 300; } }
 
 .card-body-link {
   color: #2B3252; }
@@ -246,6 +248,9 @@ ul {
 .slide-content-body {
   color: #2B3252;
   font-weight: 300; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .slide-content-body {
+      padding: 2%; } }
 
 .reviews {
   height: auto; }
