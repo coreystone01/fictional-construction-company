@@ -195,3 +195,24 @@ ul {
 .comprehensive-services {
   background-color: #2B3252;
   padding: 4%; }
+
+.reviews {
+  height: 250px;
+  border: 1px solid black; }
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  background-color: #fff; }
+
+.slide-container {
+  height: 30vh;
+  background-color: #EF5455;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.slide-item {
+  color: #000000; }
