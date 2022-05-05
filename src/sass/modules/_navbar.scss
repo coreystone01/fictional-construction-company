@@ -1,5 +1,9 @@
 .navbar {
-    border-bottom: 1px solid $blue;
+
+    @include responsive('sm-phone'){
+        font-size: 10vw;
+        text-align: center;
+    }
 
     &__checkbox {
         display: none;
@@ -64,9 +68,11 @@
     display: block;
 }
 
-#navbar__checkbox:checked ~ label.navbar__toggle .navbar-menu-icon__close {
-    display: block;
-}
+// #navbar__checkbox:checked ~ label.navbar__toggle .navbar-menu-icon__close {
+//     display: block;
+// }
+
+#navbar__checkbox:checked ~ ul.nav-menu li
 
 #navbar__checkbox:checked ~ label.navbar__toggle .navbar-menu-icon {
     display: none;
