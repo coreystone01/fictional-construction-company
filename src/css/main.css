@@ -293,35 +293,35 @@ ul {
     .footer-title {
       display: none; } }
 
-.comprehensive-services {
+#comprehensive-services {
   background-color: #2B3252;
   padding: 4%; }
 
-.information-links .button--is-round {
+#information-links .button--is-round {
   background-color: #EF5455; }
 
 @media (max-width: 375px) and (orientation: portrait) {
-  .information-links .container {
+  #information-links .container {
     margin-bottom: 4%; } }
 
-.information-links .icon {
+#information-links .icon {
   color: #FAD744; }
 
-.locations {
+#locations {
   background-color: #2B3252;
   color: #EF5455; }
   @media (max-width: 375px) and (orientation: portrait) {
-    .locations .container {
+    #locations .container {
       margin: 4%; } }
 
-.service-cards button:hover {
+#service-cards button:hover {
   background-color: #EF5455;
   color: #2B3252; }
 
-.service-cards button:focus {
+#service-cards button:focus {
   background-color: #EF5455;
   color: #2B3252; }
 
-.service-cards button:active {
+#service-cards button:active {
   background-color: #2B3252;
   color: #FAD744; }
