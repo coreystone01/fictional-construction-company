@@ -22,16 +22,15 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 1rem;
+        // margin: 1rem;
         font-weight: $heavy-weight;
-        // make a desktop responsive feature
-        // @include responsive('desktop'){
-        //     flex-direction: row;
+        @include responsive('laptop'){
+            flex-direction: row;
 
-        //     li {
-        //         display: block;
-        //     }
-        // }
+            li {
+                display: block;
+            }
+        }
     }
 
     .nav-item   {
