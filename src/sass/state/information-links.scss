@@ -2,7 +2,13 @@
     
     .button--is-round {
         background-color: $red;
-        
+    }
+
+    .container  {
+        @include responsive('sm-phone'){
+            margin-bottom: 4%;
+        }
+
     }
 
     .icon   {

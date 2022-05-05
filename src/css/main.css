@@ -125,8 +125,7 @@ ul {
 .navbar {
   display: flex;
   flex-grow: 1;
-  align-items: center;
-  background: #EF5455; }
+  align-items: center; }
   @media (max-width: 375px) and (orientation: portrait) {
     .navbar {
       font-weight: 700; } }
@@ -258,12 +257,30 @@ ul {
     .reviews {
       padding: 4%; } }
 
+.footer {
+  background-color: #FAD744; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .footer .container {
+      flex-direction: column;
+      padding: 4%; } }
+
+.footer-title {
+  flex-grow: 1;
+  color: #2B3252; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .footer-title {
+      display: none; } }
+
 .comprehensive-services {
   background-color: #2B3252;
   padding: 4%; }
 
 .information-links .button--is-round {
   background-color: #EF5455; }
+
+@media (max-width: 375px) and (orientation: portrait) {
+  .information-links .container {
+    margin-bottom: 4%; } }
 
 .information-links .icon {
   color: #FAD744; }

@@ -3,7 +3,7 @@
     display: flex;
     flex-grow: 1;
     @include align-items('center');
-    background: $red;
+    // background: $red;
     @include responsive('sm-phone'){
         font-weight: $heavy-weight;
     };    
