@@ -145,13 +145,16 @@ ul {
   color: #2B3252; }
   .nav-link:hover {
     background-color: #2B3252;
-    color: #EF5455; }
+    color: #EF5455;
+    padding: 1%; }
   .nav-link:focus {
     background-color: #2B3252;
-    color: #EF5455; }
+    color: #EF5455;
+    padding: 1%; }
   .nav-link:active {
     background-color: #FAD744;
-    color: #2B3252; }
+    color: #2B3252;
+    padding: 1%; }
 
 .header {
   background: #EF5455; }
@@ -310,3 +313,15 @@ ul {
   @media (max-width: 375px) and (orientation: portrait) {
     .locations .container {
       margin: 4%; } }
+
+.service-cards button:hover {
+  background-color: #EF5455;
+  color: #2B3252; }
+
+.service-cards button:focus {
+  background-color: #EF5455;
+  color: #2B3252; }
+
+.service-cards button:active {
+  background-color: #2B3252;
+  color: #FAD744; }

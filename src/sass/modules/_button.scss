@@ -22,6 +22,21 @@
     &--bg__blue{
         @extend %button;
         @include button-state('blue');
+
+        // &:hover{
+        //     @include button-state('red');
+
+        // }
+
+        // &:focus{
+        //     @include button-state('red');
+
+        // }
+
+        // &:active{
+        //     @include button-state('inverse-yellow');
+
+        // }
     }
 
     &--bg__red{

@@ -100,4 +100,8 @@
         background-color: $yellow;
         color: $blue;
     }
+    @if $background == 'inverse-yellow'{
+        background-color: $blue;
+        color: $yellow;
+    }
 }
