@@ -143,6 +143,15 @@ ul {
 
 .nav-link {
   color: #2B3252; }
+  .nav-link:hover {
+    background-color: #2B3252;
+    color: #EF5455; }
+  .nav-link:focus {
+    background-color: #2B3252;
+    color: #EF5455; }
+  .nav-link:active {
+    background-color: #FAD744;
+    color: #2B3252; }
 
 .header {
   background: #EF5455; }
@@ -199,10 +208,11 @@ ul {
 .card-body-link {
   color: #2B3252; }
 
-.button {
+.button,
+.button--bg__blue,
+.button--bg__red,
+.button--bg__yellow {
   padding: 4%;
-  background: #2B3252;
-  color: #EF5455;
   text-decoration: none;
   border: none;
   border-radius: 5px; }
@@ -215,6 +225,15 @@ ul {
       .button--is-round {
         width: 40vw;
         height: 18vh; } }
+  .button--bg__blue {
+    background-color: #2B3252;
+    color: #EF5455; }
+  .button--bg__red {
+    background-color: #EF5455;
+    color: #2B3252; }
+  .button--bg__yellow {
+    background-color: #FAD744;
+    color: #2B3252; }
 
 .article-title {
   text-align: center;

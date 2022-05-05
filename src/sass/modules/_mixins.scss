@@ -85,5 +85,19 @@
     @if $direction == 'column' {
         flex-direction:column;
     }
-    
+}
+
+@mixin button-state($background) {
+    @if $background == 'blue' {
+        background-color: $blue;
+        color: $red;
+    }
+    @if $background == 'red'   {
+        background-color: $red;
+        color: $blue;
+    }
+    @if $background == 'yellow' {
+        background-color: $yellow;
+        color: $blue;
+    }
 }

@@ -24,4 +24,17 @@
 
 .nav-link   {
     color: $blue;
+    &:hover{
+        @include button-state('blue');
+        padding: 1%;
+    }
+
+    &:focus{
+        @include button-state('blue');
+        padding: 1%;
+    }
+    &:active{
+        @include button-state('yellow');
+        padding: 1%;
+    }
 }

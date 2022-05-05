@@ -1,8 +1,8 @@
 .button,
 %button {
     padding: 4%;
-    background: $blue;
-    color: $red;
+    // background: $blue;
+    // color: $red;
     text-decoration: none;
     border: none;
     border-radius: 5px;
@@ -18,4 +18,20 @@
             height: 18vh;
         }
     }
+
+    &--bg__blue{
+        @extend %button;
+        @include button-state('blue');
+    }
+
+    &--bg__red{
+        @extend %button;
+        @include button-state('red');
+    }
+
+    &--bg__yellow{
+        @extend %button;
+        @include button-state('yellow');
+    }
+
 }
