@@ -1,46 +1,74 @@
-.navbar,
-%navbar {
-    display: flex;
-    flex-grow: 1;
-    @include align-items('center');
-    // background: $red;
-    @include responsive('sm-phone'){
+.navbar {
+    border-bottom: 1px solid $blue;
+
+    &__checkbox {
+        display: none;
+    }
+
+    &__toggle   {
+        position: absolute;
+    }
+
+    // &-menu-icon {
+    //     // set this to desktop in the future
+    //     // @include responsive('')
+    // }
+
+    &-menu-icon__close  {
+        display: none;
+    }
+
+    .nav-menu   {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
         font-weight: $heavy-weight;
-    };    
-}
+        // make a desktop responsive feature
+        // @include responsive('desktop'){
+        //     flex-direction: row;
 
-.nav-menu,
-%nav-menu  {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
-    @include justify('space-around');
-    @include responsive('sm-phone'){
-        padding-top: 4%;
-        gap: 4%;
-        font-weight: $heavy-weight;
-    } 
-}
-
-.nav-link   {
-    color: $blue;
-    &:hover{
-        @include button-state('blue');
-        padding: 1%;
+        //     li {
+        //         display: block;
+        //     }
+        // }
     }
 
-    &:focus{
-        @include button-state('blue');
-        padding: 1%;
+    .nav-item   {
+        padding: 0.5rem;
+        display: none;
+
+        &:first-child   {
+            margin-top: 4%;
+        }
     }
-    &:active{
-        @include button-state('yellow');
-        padding: 1%;
+
+    .nav-link   {
+        color: $blue;
+        &:hover{
+            @include button-state('blue');
+            padding: 1%;
+        }
+    
+        &:focus{
+            @include button-state('blue');
+            padding: 1%;
+        }
+        &:active{
+            @include button-state('yellow');
+            padding: 1%;
+        }
     }
 }
 
-.mobile-navbar  {
-    position: absolute;
-    right: 0;
-    margin: 0rem 1rem;
+#navbar__checkbox:checked ~ ul.nav-menu li   {
+    display: block;
+}
+
+#navbar__checkbox:checked ~ label.navbar__toggle .navbar-menu-icon__close {
+    display: block;
+}
+
+#navbar__checkbox:checked ~ label.navbar__toggle .navbar-menu-icon {
+    display: none;
 }
