@@ -1,79 +1,49 @@
+#toggle {
+    margin: 2vh 0vh 2vh 0vh;
+    cursor: pointer;
+    
+    &:focus,
+    &:hover {
+        @include button-state('yellow');
+    }
+
+}
 .navbar {
 
-    @include responsive('sm-phone'){
-        font-size: 10vw;
-        text-align: center;
-    }
+}
 
-    &__checkbox {
-        display: none;
-    }
+.nav-menu   {
+    display: none;
 
-    &__toggle   {
-        position: relative;
-    }
-
-    // &-menu-icon {
-    //     // set this to desktop in the future
-    //     // @include responsive('')
-    // }
-
-    &-menu-icon__close  {
-        display: none;
-    }
-
-    .nav-menu   {
+    &-is-active{
         display: flex;
         flex-direction: column;
         align-items: center;
-        // margin: 1rem;
         font-weight: $heavy-weight;
-        @include responsive('laptop'){
-            flex-direction: row;
-
-            li {
-                display: block;
-            }
-        }
-    }
-
-    .nav-item   {
-        padding: 0.5rem;
-        display: none;
-
-        &:first-child   {
-            margin-top: 4%;
-        }
-    }
-
-    .nav-link   {
-        color: $blue;
-        &:hover{
-            @include button-state('blue');
-            padding: 1%;
-        }
-    
-        &:focus{
-            @include button-state('blue');
-            padding: 1%;
-        }
-        &:active{
-            @include button-state('yellow');
-            padding: 1%;
-        }
     }
 }
 
-#navbar__checkbox:checked ~ ul.nav-menu li   {
-    display: block;
+.nav-item   {
+    padding: 0.5rem;
+
+    &:first-child   {
+        margin-top: 4%;
+    }
 }
 
-// #navbar__checkbox:checked ~ label.navbar__toggle .navbar-menu-icon__close {
-//     display: block;
-// }
+.nav-link   {
+    color: $blue;
+    &:hover{
+        @include button-state('blue');
+        padding: 1%;
+    }
 
-#navbar__checkbox:checked ~ ul.nav-menu li
-
-#navbar__checkbox:checked ~ label.navbar__toggle .navbar-menu-icon {
-    display: none;
+    &:focus{
+        @include button-state('blue');
+        padding: 1%;
+    }
+    &:active{
+        @include button-state('yellow');
+        padding: 1%;
+    }
 }
