@@ -38,3 +38,9 @@ h3  {
 p, a   {
     font-size: clamp(1rem, 2vw, 2.5rem);
 }
+
+// li  {
+//     @include responsive('sm-phone'){
+//         font-size: clamp(1.2rem, 2vw, 2.5rem);
+//     }
+// }

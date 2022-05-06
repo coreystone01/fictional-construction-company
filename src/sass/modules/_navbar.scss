@@ -4,7 +4,8 @@
     @include responsive('sm-phone'){
         margin: 2vh 0vh 2vh 1vh;
         border: 1px solid yellow;
-        padding: 2vh
+        padding: 2vh;
+        font-size: 1.25rem;
     }
     
     &:focus,
@@ -34,16 +35,16 @@
     padding: 0.5rem;
     &:hover{
         @include button-state('yellow');
-        padding: 1%;
+        // padding: 1%;
     }
 
     &:focus{
         @include button-state('yellow');
-        padding: 1%;
+        // padding: 1%;
     }
     &:active{
         @include button-state('yellow');
-        padding: 1%;
+        // padding: 1%;
     }
 
     &:first-child   {
@@ -53,17 +54,4 @@
 
 .nav-link   {
     color: $blue;
-    // &:hover{
-    //     @include button-state('blue');
-    //     padding: 1%;
-    // }
-
-    // &:focus{
-    //     @include button-state('blue');
-    //     padding: 1%;
-    // }
-    // &:active{
-    //     @include button-state('yellow');
-    //     padding: 1%;
-    // }
 }

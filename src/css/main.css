@@ -129,7 +129,8 @@ ul {
     #toggle {
       margin: 2vh 0vh 2vh 1vh;
       border: 1px solid yellow;
-      padding: 2vh; } }
+      padding: 2vh;
+      font-size: 1.25rem; } }
   #toggle:focus, #toggle:hover {
     background-color: #FAD744;
     color: #2B3252; }
@@ -148,16 +149,13 @@ ul {
   padding: 0.5rem; }
   .nav-item:hover {
     background-color: #FAD744;
-    color: #2B3252;
-    padding: 1%; }
+    color: #2B3252; }
   .nav-item:focus {
     background-color: #FAD744;
-    color: #2B3252;
-    padding: 1%; }
+    color: #2B3252; }
   .nav-item:active {
     background-color: #FAD744;
-    color: #2B3252;
-    padding: 1%; }
+    color: #2B3252; }
   .nav-item:first-child {
     margin-top: 4%; }
 
