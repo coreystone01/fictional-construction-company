@@ -123,18 +123,24 @@ ul {
       text-align: center; } }
 
 #toggle {
-  margin: 2vh 0vh 2vh 0vh;
   cursor: pointer; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    #toggle {
+      margin: 2vh 0vh 2vh 1vh;
+      border: 1px solid yellow;
+      padding: 2vh; } }
   #toggle:focus, #toggle:hover {
     background-color: #FAD744;
     color: #2B3252; }
 
 .nav-menu {
   display: none; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .nav-menu {
+      font-size: 1.375rem; } }
   .nav-menu-is-active {
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-weight: 700; }
 
 .nav-item {
