@@ -18,6 +18,10 @@
             width: 40vw;
             height: 15vh;
         }
+        @include responsive('md-phone') {
+            width: 32vw;
+            height: 15vh;
+        }
     }
 
     &--bg__blue{

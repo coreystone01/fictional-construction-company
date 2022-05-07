@@ -83,6 +83,9 @@ ul {
       font-size: 0.8em;
       width: 8vw;
       height: 3vh; } }
+  @media (min-width: 375px) and (orientation: portrait) {
+    .icon__social-media {
+      width: 6vw; } }
 
 .container {
   flex-grow: 1;
@@ -239,6 +242,10 @@ ul {
       .button--is-round {
         width: 40vw;
         height: 15vh; } }
+    @media (min-width: 375px) and (orientation: portrait) {
+      .button--is-round {
+        width: 32vw;
+        height: 15vh; } }
   .button--bg__blue {
     background-color: #2B3252;
     color: #EF5455; }
@@ -263,7 +270,7 @@ ul {
   margin: auto; }
 
 .slide-container {
-  height: 30vh;
+  height: auto;
   background-color: #fff;
   margin: auto;
   display: flex;

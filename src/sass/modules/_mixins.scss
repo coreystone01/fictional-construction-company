@@ -4,6 +4,9 @@
     @if ($breakpoint == 'sm-phone') {
         @media (min-width: $sm-phone) and (orientation: $orientation) { @content };
     }
+    @if ($breakpoint == 'md-phone') {
+        @media (min-width: $md-phone) and (orientation: $orientation) { @content };
+    }
     @if ($breakpoint == 'lg-phone') {
         @media (min-width: $lg-phone ) and (orientation: $orientation) { @content };
     }
