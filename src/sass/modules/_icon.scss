@@ -26,9 +26,8 @@
     margin-right: 2%;
     text-align: center;
     @include responsive('sm-phone'){
-        padding: 1%;
-        font-size: 1em;
-        width: 6vw;
+        font-size: 0.8em;
+        width: 8vw;
         height: 3vh;
     }
 }

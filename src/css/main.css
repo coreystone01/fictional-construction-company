@@ -66,7 +66,7 @@ ul {
   justify-content: center;
   border-radius: 50%;
   color: #EF5455; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .icon,
     .icon__social-media {
       font-size: 3em;
@@ -78,11 +78,10 @@ ul {
   color: #2B3252;
   margin-right: 2%;
   text-align: center; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .icon__social-media {
-      padding: 1%;
-      font-size: 1em;
-      width: 6vw;
+      font-size: 0.8em;
+      width: 8vw;
       height: 3vh; } }
 
 .container {
@@ -97,20 +96,20 @@ ul {
   width: 80%;
   margin: auto;
   background-color: #C4C4C4; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .container__one-column {
       width: 100%; } }
 
 .top-bar {
   padding: 0.5%;
   background-color: #2B3252; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .top-bar {
       font-size: 16px; } }
 
 .header {
   background: #EF5455; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .header .container {
       flex-direction: column;
       padding: 4%; } }
@@ -118,18 +117,18 @@ ul {
 .header-title {
   flex-grow: 1;
   color: #2B3252; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .header-title {
       text-align: center; } }
 
 #toggle {
   cursor: pointer;
   font-weight: 700; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     #toggle {
       margin: 2vh 0vh 2vh 1vh;
       border: 1px solid yellow;
-      padding: 2vh;
+      padding: 1vh;
       font-size: 1.25rem; } }
   #toggle:focus, #toggle:hover {
     background-color: #FAD744;
@@ -137,7 +136,7 @@ ul {
 
 .nav-menu {
   display: none; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .nav-menu {
       font-size: 1.375rem; } }
   .nav-menu-is-active {
@@ -164,7 +163,7 @@ ul {
 
 .header {
   background: #EF5455; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .header .container {
       flex-direction: column;
       padding: 4%; } }
@@ -172,7 +171,7 @@ ul {
 .header-title {
   flex-grow: 1;
   color: #2B3252; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .header-title {
       text-align: center; } }
 
@@ -183,7 +182,7 @@ ul {
   align-items: center;
   width: auto;
   height: auto; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .card {
       gap: 1rem;
       margin: 8%;
@@ -196,7 +195,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px 15px 0 0; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .card-banner {
       height: 10vh; } }
 
@@ -208,7 +207,7 @@ ul {
 
 .card-body-content {
   text-align: left; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .card-body-content {
       text-align: center;
       padding: 2%;
@@ -225,7 +224,7 @@ ul {
   text-decoration: none;
   border: none;
   border-radius: 5px; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .button,
     .button--bg__blue,
     .button--bg__red,
@@ -236,10 +235,10 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center; }
-    @media (max-width: 375px) and (orientation: portrait) {
+    @media (min-width: 280px) and (orientation: portrait) {
       .button--is-round {
         width: 40vw;
-        height: 18vh; } }
+        height: 15vh; } }
   .button--bg__blue {
     background-color: #2B3252;
     color: #EF5455; }
@@ -281,13 +280,13 @@ ul {
 .slide-content-body {
   color: #2B3252;
   font-weight: 300; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .slide-content-body {
       padding: 2%; } }
 
 .reviews {
   height: auto; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .reviews {
       padding: 4%; } }
 
@@ -297,7 +296,7 @@ ul {
 .footer-title {
   flex-grow: 1;
   color: #2B3252; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .footer-title {
       display: none; } }
 
@@ -305,9 +304,9 @@ ul {
   display: flex;
   justify-content: space-around;
   font-weight: 700; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     .footer-nav-menu {
-      font-size: 1.2rem; } }
+      font-size: 0.8rem; } }
 
 .footer-nav-item {
   padding: 0.5rem; }
@@ -328,7 +327,7 @@ ul {
 #information-links .button--is-round {
   background-color: #EF5455; }
 
-@media (max-width: 375px) and (orientation: portrait) {
+@media (min-width: 280px) and (orientation: portrait) {
   #information-links .container {
     margin-bottom: 4%; } }
 
@@ -338,7 +337,7 @@ ul {
 #locations {
   background-color: #2B3252;
   color: #EF5455; }
-  @media (max-width: 375px) and (orientation: portrait) {
+  @media (min-width: 280px) and (orientation: portrait) {
     #locations .container {
       margin: 4%; } }
 

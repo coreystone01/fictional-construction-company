@@ -2,7 +2,7 @@
 
 @mixin responsive($breakpoint, $orientation: portrait){
     @if ($breakpoint == 'sm-phone') {
-        @media (max-width: $sm-phone) and (orientation: $orientation) { @content };
+        @media (min-width: $sm-phone) and (orientation: $orientation) { @content };
     }
     @if ($breakpoint == 'lg-phone') {
         @media (min-width: $lg-phone ) and (orientation: $orientation) { @content };
