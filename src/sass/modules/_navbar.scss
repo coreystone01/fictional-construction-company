@@ -12,6 +12,9 @@
     @include responsive('tablet'){
         display: none;
     }
+    @include responsive('laptop', 'landscape'){
+        display: none;
+    }
     
     &:focus,
     &:hover {
@@ -29,6 +32,12 @@
         font-size: 1.375rem;
     }
     @include responsive('tablet'){
+        display: flex;
+        flex-direction: row;
+        font-weight: $heavy-weight;
+        font-size: 1.7rem;
+    }
+    @include responsive('laptop', 'landscape'){
         display: flex;
         flex-direction: row;
         font-weight: $heavy-weight;
@@ -61,6 +70,9 @@
     &:first-child   {
         margin-top: 4%;
         @include responsive('tablet'){
+            margin-top: 0%;
+        }
+        @include responsive('laptop', 'landscape'){
             margin-top: 0%;
         }
     }

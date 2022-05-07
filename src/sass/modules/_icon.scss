@@ -43,5 +43,10 @@
         width: 5vw;
         height: 4vh;
     }
+    @include responsive('laptop', 'landscape'){
+        font-size: 1.5em;
+        width: 4vw;
+        height: 6vh;
+    }
     
 }
