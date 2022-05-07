@@ -26,6 +26,9 @@
     @include responsive('lg-phone') {
         font-size: 1em;
     }
+    @include responsive('tablet'){
+        font-size: 1.6em;
+    }
 }
 
 .footer-nav-item   {

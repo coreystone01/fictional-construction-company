@@ -1,6 +1,10 @@
 #service-cards {
+    flex-direction: column;
+    @include responsive('tablet'){
+        flex-direction: row;
+        margin: 2% 2% 4% 2%;
+    }
 
-    
     button {
         &:hover{
             @include button-state('red');

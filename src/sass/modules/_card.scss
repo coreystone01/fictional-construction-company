@@ -13,6 +13,11 @@
         border-radius: 15px;
         box-shadow: 0px 1rem 1.5rem rgba(black, 0.5);
     }
+    @include responsive('tablet'){
+        gap: 0rem;
+        margin: 2%;
+        padding: 2%;
+    }
 }
 
 .card-banner {
@@ -20,15 +25,15 @@
 	background-repeat: no-repeat;
 	background-size: cover;
     border-radius: 15px 15px 0 0;
+    height: auto;
     @extend %is-flex;
 	@extend %justify-center;
-    @include responsive('sm-phone'){
-        height: 10vh;
-    }	
+    // @include responsive('sm-phone'){
+    //     height: 10vh;
+    // }	
 }
 
 .card-body  {
-    // text-align: center;
     margin: 2%;
 }
 

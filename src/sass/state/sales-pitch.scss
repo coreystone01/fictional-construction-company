@@ -1,0 +1,9 @@
+.sales-pitch   {
+    .container__one-column {
+        @include responsive('tablet'){
+            width: 80%;
+            border-radius: 15px;
+            margin: 10%;
+        }
+    }
+}

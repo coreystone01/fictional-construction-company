@@ -1,11 +1,13 @@
 #locations  {
     background-color: $blue;
     color: $red;
-
+    flex-direction: column;
+    @include responsive('tablet'){
+        flex-direction: row;
+    }
     .container  {
         @include responsive('sm-phone'){
             margin: 4%;
-        }
-        
+        }        
     }
 }

@@ -1,4 +1,10 @@
 #comprehensive-services {
     background-color: $blue;
     padding: 4%;
+
+    @include responsive('tablet'){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }

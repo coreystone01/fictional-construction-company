@@ -17,4 +17,9 @@
 	@include responsive('sm-phone'){
 		width: 100%;
 	}
+	// @include responsive('tablet'){
+	// 	width: 80%;
+	// 	border-radius: 15px;
+	// 	margin: 10%;
+	// }
 }

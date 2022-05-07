@@ -26,6 +26,10 @@
             width: 30vw;
             height: 15vh;
         }
+        @include responsive('tablet'){
+            width: 24vw;
+            height: 15vh;
+        }
     }
 
     &--bg__blue{
