@@ -137,6 +137,9 @@ ul {
   @media (min-width: 280px) and (orientation: portrait) {
     .header-title {
       text-align: center; } }
+  @media (min-width: 768px) and (orientation: portrait) {
+    .header-title {
+      text-align: left; } }
 
 #toggle {
   cursor: pointer;
@@ -162,7 +165,9 @@ ul {
   @media (min-width: 768px) and (orientation: portrait) {
     .nav-menu {
       display: flex;
-      flex-direction: row; } }
+      flex-direction: row;
+      font-weight: 700;
+      font-size: 1.7rem; } }
   .nav-menu-is-active {
     display: flex;
     flex-direction: column;
@@ -205,6 +210,9 @@ ul {
   @media (min-width: 280px) and (orientation: portrait) {
     .header-title {
       text-align: center; } }
+  @media (min-width: 768px) and (orientation: portrait) {
+    .header-title {
+      text-align: left; } }
 
 .card {
   background-color: #FAD744;

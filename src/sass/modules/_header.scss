@@ -23,4 +23,7 @@
     @include responsive('sm-phone'){
         text-align: center;
     }
+    @include responsive('tablet'){
+        text-align: left;
+    }
 }

@@ -31,6 +31,8 @@
     @include responsive('tablet'){
         display: flex;
         flex-direction: row;
+        font-weight: $heavy-weight;
+        font-size: 1.7rem;
     }
 
     &-is-active{
