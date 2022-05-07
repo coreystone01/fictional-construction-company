@@ -250,6 +250,18 @@ ul {
       gap: 0rem;
       margin: 2%;
       padding: 2%; } }
+  @media (min-width: 1024px) and (orientation: landscape) {
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+      height: auto;
+      gap: 0rem;
+      margin: 2%;
+      padding: 2%;
+      border-radius: 15px;
+      box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5); } }
 
 .card-banner {
   background-position: center;
@@ -257,6 +269,15 @@ ul {
   background-size: cover;
   border-radius: 15px 15px 0 0;
   height: auto; }
+  @media (min-width: 1024px) and (orientation: landscape) {
+    .card-banner {
+      display: flex;
+      justify-content: center;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 15px 15px 0 0;
+      height: auto; } }
 
 .card-body {
   margin: 2%; }
@@ -267,6 +288,11 @@ ul {
 .card-body-content {
   text-align: left; }
   @media (min-width: 280px) and (orientation: portrait) {
+    .card-body-content {
+      text-align: center;
+      padding: 2%;
+      font-weight: 300; } }
+  @media (min-width: 1024px) and (orientation: landscape) {
     .card-body-content {
       text-align: center;
       padding: 2%;
@@ -430,6 +456,10 @@ ul {
 #service-cards {
   flex-direction: column; }
   @media (min-width: 768px) and (orientation: portrait) {
+    #service-cards {
+      flex-direction: row;
+      margin: 2% 2% 4% 2%; } }
+  @media (min-width: 1024px) and (orientation: landscape) {
     #service-cards {
       flex-direction: row;
       margin: 2% 2% 4% 2%; } }
