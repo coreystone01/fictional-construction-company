@@ -7,7 +7,13 @@
             @include flex-direction('column');
             padding: 4%;
         }
-        
+    }
+    @include responsive('tablet'){
+        .container  {
+            flex-direction: row;
+            padding: 4%;
+        }
+
     }
 }
 
