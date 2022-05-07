@@ -22,6 +22,10 @@
             width: 32vw;
             height: 15vh;
         }
+        @include responsive('lg-phone') {
+            width: 30vw;
+            height: 18vh;
+        }
     }
 
     &--bg__blue{

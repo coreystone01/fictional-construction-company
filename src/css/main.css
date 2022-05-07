@@ -86,6 +86,11 @@ ul {
   @media (min-width: 375px) and (orientation: portrait) {
     .icon__social-media {
       width: 6vw; } }
+  @media (min-width: 400px) and (orientation: portrait) {
+    .icon__social-media {
+      font-size: 1em;
+      width: 7vw;
+      height: 4vh; } }
 
 .container {
   flex-grow: 1;
@@ -246,6 +251,10 @@ ul {
       .button--is-round {
         width: 32vw;
         height: 15vh; } }
+    @media (min-width: 400px) and (orientation: portrait) {
+      .button--is-round {
+        width: 30vw;
+        height: 18vh; } }
   .button--bg__blue {
     background-color: #2B3252;
     color: #EF5455; }
@@ -314,6 +323,9 @@ ul {
   @media (min-width: 280px) and (orientation: portrait) {
     .footer-nav-menu {
       font-size: 0.8rem; } }
+  @media (min-width: 400px) and (orientation: portrait) {
+    .footer-nav-menu {
+      font-size: 1em; } }
 
 .footer-nav-item {
   padding: 0.5rem; }
