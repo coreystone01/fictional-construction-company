@@ -5,9 +5,19 @@
     @include responsive('tablet'){
         flex-direction: row;
     }
+    @include responsive('laptop','landscape'){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
     .container  {
         @include responsive('sm-phone'){
             margin: 4%;
+        }
+        @include responsive('laptop','landscape'){
+            display: flex;
+            justify-content: center;
         }        
     }
 }

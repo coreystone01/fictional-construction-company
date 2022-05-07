@@ -72,6 +72,12 @@ ul {
       font-size: 3em;
       width: 5vw;
       height: 5vh; } }
+  @media (min-width: 1024px) and (orientation: landscape) {
+    .icon,
+    .icon__social-media {
+      font-size: 3em;
+      width: 5vw;
+      height: 5vh; } }
 
 .icon__social-media {
   background: #FAD744;
@@ -257,7 +263,7 @@ ul {
       align-items: center;
       width: auto;
       height: auto;
-      gap: 0rem;
+      gap: 1rem;
       margin: 2%;
       padding: 2%;
       border-radius: 15px;
@@ -336,6 +342,10 @@ ul {
       .button--is-round {
         width: 24vw;
         height: 15vh; } }
+    @media (min-width: 1024px) and (orientation: landscape) {
+      .button--is-round {
+        width: 15vw;
+        height: 24vh; } }
   .button--bg__blue {
     background-color: #2B3252;
     color: #EF5455; }
@@ -373,6 +383,9 @@ ul {
 
 .slide-content-header {
   color: #EF5455; }
+  @media (min-width: 1024px) and (orientation: landscape) {
+    .slide-content-header {
+      font-size: 28px; } }
 
 .slide-content-body {
   color: #2B3252;
@@ -396,6 +409,9 @@ ul {
   @media (min-width: 280px) and (orientation: portrait) {
     .footer-title {
       display: none; } }
+  @media (min-width: 1024px) and (orientation: landscape) {
+    .footer-title {
+      display: none; } }
 
 .footer-nav-menu {
   display: flex;
@@ -408,6 +424,9 @@ ul {
     .footer-nav-menu {
       font-size: 1em; } }
   @media (min-width: 768px) and (orientation: portrait) {
+    .footer-nav-menu {
+      font-size: 1.6em; } }
+  @media (min-width: 1024px) and (orientation: landscape) {
     .footer-nav-menu {
       font-size: 1.6em; } }
 
@@ -431,6 +450,11 @@ ul {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around; } }
+  @media (min-width: 1024px) and (orientation: landscape) {
+    #comprehensive-services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; } }
 
 #information-links .button--is-round {
   background-color: #EF5455; }
@@ -449,9 +473,19 @@ ul {
   @media (min-width: 768px) and (orientation: portrait) {
     #locations {
       flex-direction: row; } }
+  @media (min-width: 1024px) and (orientation: landscape) {
+    #locations {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: row; } }
   @media (min-width: 280px) and (orientation: portrait) {
     #locations .container {
       margin: 4%; } }
+  @media (min-width: 1024px) and (orientation: landscape) {
+    #locations .container {
+      display: flex;
+      justify-content: center; } }
 
 #service-cards {
   flex-direction: column; }

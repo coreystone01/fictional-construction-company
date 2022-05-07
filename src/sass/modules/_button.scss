@@ -30,6 +30,10 @@
             width: 24vw;
             height: 15vh;
         }
+        @include responsive('laptop','landscape'){
+            width: 15vw;
+            height: 24vh;
+        }
     }
 
     &--bg__blue{

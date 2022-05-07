@@ -26,6 +26,9 @@
 
 .slide-content-header   {
     color: $red;
+    @include responsive('laptop', 'landscape'){
+        font-size: 28px;
+    }
 }
 
 .slide-content-body {

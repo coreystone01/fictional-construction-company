@@ -10,6 +10,9 @@
     @include responsive('sm-phone'){
         display: none;
     }
+    @include responsive('laptop', 'landscape'){
+        display: none;
+    }
 }
 
 .footer-navbar  {
@@ -27,6 +30,9 @@
         font-size: 1em;
     }
     @include responsive('tablet'){
+        font-size: 1.6em;
+    }
+    @include responsive('laptop', 'landscape'){
         font-size: 1.6em;
     }
 }

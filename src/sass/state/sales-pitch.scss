@@ -5,5 +5,10 @@
             border-radius: 15px;
             margin: 10%;
         }
+        @include responsive('laptop', 'landscape'){
+            width: 80%;
+            border-radius: 15px;
+            margin: 10%; 
+        }
     }
 }
