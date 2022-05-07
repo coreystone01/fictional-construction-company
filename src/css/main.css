@@ -225,6 +225,12 @@ ul {
   text-decoration: none;
   border: none;
   border-radius: 5px; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .button,
+    .button--bg__blue,
+    .button--bg__red,
+    .button--bg__yellow {
+      padding: 8%; } }
   .button--is-round {
     border-radius: 50%;
     display: flex;
@@ -287,10 +293,6 @@ ul {
 
 .footer {
   background-color: #FAD744; }
-  @media (max-width: 375px) and (orientation: portrait) {
-    .footer .container {
-      flex-direction: column;
-      padding: 4%; } }
 
 .footer-title {
   flex-grow: 1;
@@ -298,6 +300,9 @@ ul {
   @media (max-width: 375px) and (orientation: portrait) {
     .footer-title {
       display: none; } }
+
+.footer-nav-menu {
+  display: flex; }
 
 #comprehensive-services {
   background-color: #2B3252;

@@ -1,3 +1,5 @@
+// dependencies: _button.scss, _mixins.scss
+
 #toggle {
     cursor: pointer;
     font-weight: $heavy-weight;
@@ -14,9 +16,9 @@
     }
 
 }
-.navbar {
+// .navbar {
 
-}
+// }
 
 .nav-menu   {
     display: none;
@@ -55,3 +57,14 @@
 .nav-link   {
     color: $blue;
 }
+
+// Example HTML:
+// <nav role="navigation" class="navbar">
+// <button id="toggle" aria-controls="nav-menu" class="button--bg__blue">Menu</button>
+// <ul class="nav-menu">
+//   <li class="nav-item" tabindex="0"><a class="nav-link" href="#">Home</a></li>
+//   <li class="nav-item" tabindex="0"><a class="nav-link" href="#">About</a></li>
+//   <li class="nav-item" tabindex="0"><a class="nav-link" href="#">Contact</a></li>
+//   <li class="nav-item" tabindex="0"><a class="nav-link" href="#">FAQ</a></li>
+// </ul>
+// </nav>
