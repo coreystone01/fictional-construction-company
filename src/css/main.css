@@ -302,7 +302,24 @@ ul {
       display: none; } }
 
 .footer-nav-menu {
-  display: flex; }
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700; }
+  @media (max-width: 375px) and (orientation: portrait) {
+    .footer-nav-menu {
+      font-size: 1.2rem; } }
+
+.footer-nav-item {
+  padding: 0.5rem; }
+  .footer-nav-item:hover {
+    background-color: #EF5455;
+    color: #2B3252; }
+  .footer-nav-item:focus {
+    background-color: #EF5455;
+    color: #2B3252; }
+  .footer-nav-item:active {
+    background-color: #EF5455;
+    color: #2B3252; }
 
 #comprehensive-services {
   background-color: #2B3252;

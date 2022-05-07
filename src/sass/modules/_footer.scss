@@ -16,6 +16,25 @@
     
 }
 
-.footer-nav-menu    {
-    display: flex;
+.footer-nav-menu {
+	display: flex;
+	justify-content: space-around;
+    font-weight: $heavy-weight;
+    @include responsive('sm-phone'){
+        font-size: 1.2rem;
+    };
+}
+
+.footer-nav-item   {
+    padding: 0.5rem;
+    &:hover{
+        @include button-state('red');
+    }
+
+    &:focus{
+        @include button-state('red');
+    }
+    &:active{
+        @include button-state('red');
+    }
 }
