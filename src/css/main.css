@@ -88,8 +88,13 @@ ul {
       width: 6vw; } }
   @media (min-width: 400px) and (orientation: portrait) {
     .icon__social-media {
-      font-size: 1em;
-      width: 7vw;
+      font-size: 1.3em;
+      width: 9vw;
+      height: 4vh; } }
+  @media (min-width: 768px) and (orientation: portrait) {
+    .icon__social-media {
+      font-size: 1.5em;
+      width: 5vw;
       height: 4vh; } }
 
 .container {
@@ -254,7 +259,7 @@ ul {
     @media (min-width: 400px) and (orientation: portrait) {
       .button--is-round {
         width: 30vw;
-        height: 18vh; } }
+        height: 15vh; } }
   .button--bg__blue {
     background-color: #2B3252;
     color: #EF5455; }

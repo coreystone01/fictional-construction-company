@@ -34,8 +34,14 @@
         width: 6vw;
     }
     @include responsive('lg-phone'){
-        font-size: 1em;
-        width: 7vw;
+        font-size: 1.3em;
+        width: 9vw;
         height: 4vh;
     }
+    @include responsive('tablet'){
+        font-size: 1.5em;
+        width: 5vw;
+        height: 4vh;
+    }
+    
 }
