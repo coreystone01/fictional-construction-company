@@ -24,7 +24,7 @@
 .icon__social-media{
     @extend %icon;
     background: variables.$yellow;
-    color: $blue;
+    color: variables.$blue;
     margin-right: 2%;
     text-align: center;
     @include mixins.responsive('sm-phone'){
