@@ -7,14 +7,14 @@
     font-weight: variables.$heavy-weight;
     @include mixins.responsive('sm-phone'){
         margin: 2vh 0vh 2vh 1vh;
-        border: 1px solid yellow;
+        border: 1px solid variables.$yellow;
         padding: 1vh;
         font-size: 1.25rem;
     }
-    @include responsive('tablet'){
+    @include mixins.responsive('tablet'){
         display: none;
     }
-    @include responsive('laptop', 'landscape'){
+    @include mixins.responsive('laptop', 'landscape'){
         display: none;
     }
     
