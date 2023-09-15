@@ -7,7 +7,7 @@
     padding: 0.5%;
     background-color: variables.$blue;
 
-    @include responsive('sm-phone'){
+    @include mixins.responsive('sm-phone'){
         font-size: variables.$base-font-size;
     }
 }
