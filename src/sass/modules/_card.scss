@@ -43,8 +43,8 @@
     border-radius: 15px 15px 0 0;
     height: auto;
     // these extend statements probably need to be reviewed.
-    @extend %is-flex;
-	@extend %justify-center;
+    // @extend %is-flex;
+	// @extend %justify-center;
     @include mixins.responsive('laptop', 'landscape'){
         display: flex;
         justify-content: center;
