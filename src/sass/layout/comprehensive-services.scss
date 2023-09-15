@@ -1,13 +1,16 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
 #comprehensive-services {
-    background-color: $blue;
+    background-color: variables.$blue;
     padding: 4%;
 
-    @include responsive('tablet'){
+    @include mixins.responsive('tablet'){
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    @include responsive('laptop', 'landscape'){
+    @include mixins.responsive('laptop', 'landscape'){
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
