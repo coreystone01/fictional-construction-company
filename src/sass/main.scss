@@ -1,6 +1,6 @@
 @use './src/sass/base/_reset';
 @use './src/sass/base/_variables.scss';
-@use './src/sass/modules/mixins';
+@use './abstract/mixins';
 @use './src/sass/modules/is-flex';
 @use './src/sass/modules/_icon';
 @use './src/sass/modules/_container';
