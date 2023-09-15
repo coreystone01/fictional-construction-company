@@ -33,7 +33,7 @@
 }
 
 .slide-content-body {
-    color: $blue;
+    color: variables.$blue;
     font-weight: variables.$light-weight;
     @include mixins.responsive('sm-phone'){
         padding: 2%;
