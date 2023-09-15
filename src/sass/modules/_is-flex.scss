@@ -1,3 +1,6 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+// this whole file may need to go away
 .is-flex,
 %is-flex    {
     display: flex;
@@ -5,13 +8,13 @@
     &--row,
     &%--row{
         @extend %is-flex;
-        @include flex-direction('row');
+        @include mixins.flex-direction('row');
     }
 
     &--column,
     &%--column{
         @extend %is-flex;
-        @include flex-direction('column');
+        @include mixins.flex-direction('column');
 
     }
 
@@ -27,32 +30,32 @@
 
 .justify-start,
 %justify-start{
-    @include justify('start');
+    @include mixins.justify('start');
 }
 
 .justify-center,
 %justify-center{
-    @include justify('center');
+    @include mixins.justify('center');
 }
 
 .justify-end,
 %justify-end{
-    @include justify('end');
+    @include mixins.justify('end');
 }
 
 .justify-space-around,
 %justify-space-around
 {
-    @include justify('space around');
+    @include mixins.justify('space around');
 }
 
 .justify-between,
 %justify-between
 {
-    @include justify('space between');
+    @include mixins.justify('space between');
 }
 
 .align-items--center{
-    @include align-items('center');
+    @include mixins.align-items('center');
 }
 
