@@ -3,7 +3,7 @@
 @use '../abstract/mixins';
 .card,
 %card  {
-    background-color: $yellow;
+    background-color: variables.$yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
