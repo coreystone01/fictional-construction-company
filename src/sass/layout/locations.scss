@@ -1,21 +1,24 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
 #locations  {
-    background-color: $blue;
-    color: $red;
+    background-color: variables.$blue;
+    color: variables.$red;
     flex-direction: column;
-    @include responsive('tablet'){
+    @include mixins.responsive('tablet'){
         flex-direction: row;
     }
-    @include responsive('laptop','landscape'){
+    @include mixins.responsive('laptop','landscape'){
         width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: row;
     }
     .container  {
-        @include responsive('sm-phone'){
+        @include mixins.responsive('sm-phone'){
             margin: 4%;
         }
-        @include responsive('laptop','landscape'){
+        @include mixins.responsive('laptop','landscape'){
             display: flex;
             justify-content: center;
         }        
