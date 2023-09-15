@@ -1,14 +1,17 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
 .header {
-    background: $red;
+    background: variables.$red;
     // height: 15vh;
 
-    @include responsive('sm-phone'){
+    @include mixins.responsive('sm-phone'){
         .container{
-            @include flex-direction('column');
+            // we may need to just remove this statement
+            @include mixins.flex-direction('column');
             padding: 4%;
         }
     }
-    @include responsive('tablet'){
+    @include mixins.responsive('tablet'){
         .container  {
             flex-direction: row;
             padding: 4%;
@@ -19,11 +22,11 @@
 
 .header-title   {
     flex-grow: 1;
-    color: $blue;
-    @include responsive('sm-phone'){
+    color: variables.$blue;
+    @include mixins.responsive('sm-phone'){
         text-align: center;
     }
-    @include responsive('tablet'){
+    @include mixins.responsive('tablet'){
         text-align: left;
     }
 }
