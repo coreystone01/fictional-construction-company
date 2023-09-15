@@ -1,17 +1,20 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
 #information-links  {
     
     .button--is-round {
-        background-color: $red;
+        background-color: variables.$red;
     }
 
     .container  {
-        @include responsive('sm-phone'){
+        @include mixins.responsive('sm-phone'){
             margin-bottom: 4%;
         }
 
     }
 
     .icon   {
-        color: $yellow;
+        color: variables.$yellow;
     }
 }
