@@ -1,10 +1,13 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
 .top-bar,
 %top-bar
 {
     padding: 0.5%;
-    background-color: $blue;
+    background-color: variables.$blue;
 
     @include responsive('sm-phone'){
-        font-size: $base-font-size;
+        font-size: variables.$base-font-size;
     }
 }
