@@ -1,5 +1,5 @@
 // dependencies: _mixins.scss
-@use '/fictional-construction-company/src/sass/abstract/mixins';
+@use '../abstract/mixins';
 .button,
 %button {
     padding: 4%;
