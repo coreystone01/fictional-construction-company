@@ -1,27 +1,29 @@
+@use '../abstract/mixins';
+
 #service-cards {
     flex-direction: column;
-    @include responsive('tablet'){
+    @include mixins.responsive('tablet'){
         flex-direction: row;
         margin: 2% 2% 4% 2%;
     }
-    @include responsive('laptop', 'landscape'){
+    @include mixins.responsive('laptop', 'landscape'){
         flex-direction: row;
         margin: 2% 2% 4% 2%;
     }
 
     button {
         &:hover{
-            @include button-state('red');
+            @include mixins.button-state('red');
         
         }
         
         &:focus{
-            @include button-state('red');
+            @include mixins.button-state('red');
         
         }
         
         &:active{
-            @include button-state('inverse-yellow');
+            @include mixins.button-state('inverse-yellow');
         
         }
     }
