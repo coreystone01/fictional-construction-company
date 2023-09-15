@@ -1,4 +1,9 @@
-@use 'https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap';
+// @use 'https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap';
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url('https://fonts.google.com/specimen/Georama?query=georama');
+}
+
 
 $red: #EF5455;
 $yellow: #FAD744;
@@ -13,8 +18,7 @@ $italic: italic;
 $base-font-size: 16px;
 
 
-$body-font: 'Georama',
-sans-serif;
+$body-font: 'Georama', helvetica, arial;
 
 // breakpoints
 $sm-phone: 280px;

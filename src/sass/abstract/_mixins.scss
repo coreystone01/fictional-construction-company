@@ -1,4 +1,5 @@
 // $breakpoint variables are imported from the _config.scss partial file, they are considered global variables
+@use './variables';
 
 @mixin responsive($breakpoint, $orientation: portrait){
     @if ($breakpoint == 'sm-phone') {
