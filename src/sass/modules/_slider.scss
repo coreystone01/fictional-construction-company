@@ -1,5 +1,6 @@
 // make sure to install tiny-slider in order to implement the js component
-
+@use '../abstract/variables';
+@use '../abstract/mixins';
 // The actual slider container (set height, layout here)
 .slider {
     display: flex;
@@ -25,16 +26,16 @@
 }
 
 .slide-content-header   {
-    color: $red;
-    @include responsive('laptop', 'landscape'){
+    color: variables.$red;
+    @include mixins.responsive('laptop', 'landscape'){
         font-size: 28px;
     }
 }
 
 .slide-content-body {
     color: $blue;
-    font-weight: $light-weight;
-    @include responsive('sm-phone'){
+    font-weight: variables.$light-weight;
+    @include mixins.responsive('sm-phone'){
         padding: 2%;
     }
 }
