@@ -1,18 +1,11 @@
 {
-  "name": "fictional-construction-company",
-  "version": "1.0.0",
-  "description": "Fictional Construction Company Website",
-  "main": "src/sass/main.scss",
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url src/sass/main.scss src/css/main.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
-  "author": "Corey Stone",
-  "license": "MIT",
-  "dependencies": {
-    "bulma": "^0.9.3",
-    "node-sass": "^7.0.1",
-    "tiny-slider": "^2.9.4"
+  
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "sass": "^1.67.0"
   }
 }
