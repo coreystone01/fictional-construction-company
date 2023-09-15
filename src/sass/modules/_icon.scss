@@ -1,3 +1,6 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
 .icon,
 %icon   {
     display: flex;
@@ -5,13 +8,13 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: $red;
-    @include responsive('sm-phone'){
+    color: variables.$red;
+    @include mixins.responsive('sm-phone'){
         font-size: 3em;
         width: 5vw;
         height: 5vh;
     }
-    @include responsive('laptop', 'landscape'){
+    @include mixins.responsive('laptop', 'landscape'){
         font-size: 3em;
         width: 5vw;
         height: 5vh;
@@ -20,29 +23,29 @@
 
 .icon__social-media{
     @extend %icon;
-    background: $yellow;
+    background: variables.$yellow;
     color: $blue;
     margin-right: 2%;
     text-align: center;
-    @include responsive('sm-phone'){
+    @include mixins.responsive('sm-phone'){
         font-size: 0.8em;
         width: 8vw;
         height: 3vh;
     }
-    @include responsive('md-phone'){
+    @include mixins.responsive('md-phone'){
         width: 6vw;
     }
-    @include responsive('lg-phone'){
+    @include mixins.responsive('lg-phone'){
         font-size: 1.3em;
         width: 9vw;
         height: 4vh;
     }
-    @include responsive('tablet'){
+    @include mixins.responsive('tablet'){
         font-size: 1.5em;
         width: 5vw;
         height: 4vh;
     }
-    @include responsive('laptop', 'landscape'){
+    @include mixins.responsive('laptop', 'landscape'){
         font-size: 1.5em;
         width: 4vw;
         height: 6vh;
