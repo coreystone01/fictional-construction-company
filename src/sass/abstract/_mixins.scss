@@ -1,23 +1,25 @@
 // $breakpoint variables are imported from the _config.scss partial file, they are considered global variables
+@use './variables';
+
 
 @mixin responsive($breakpoint, $orientation: portrait){
     @if ($breakpoint == 'sm-phone') {
-        @media (min-width: $sm-phone) and (orientation: $orientation) { @content };
+        @media (min-width: variables.$sm-phone) and (orientation: $orientation) { @content };
     }
     @if ($breakpoint == 'md-phone') {
-        @media (min-width: $md-phone) and (orientation: $orientation) { @content };
+        @media (min-width: variables.$md-phone) and (orientation: $orientation) { @content };
     }
     @if ($breakpoint == 'lg-phone') {
-        @media (min-width: $lg-phone ) and (orientation: $orientation) { @content };
+        @media (min-width: variables.$lg-phone ) and (orientation: $orientation) { @content };
     }
     @if ($breakpoint == 'tablet') {
-        @media (min-width: $tablet) and (orientation: $orientation) { @content };
+        @media (min-width: variables.$tablet) and (orientation: $orientation) { @content };
     }
     @if ($breakpoint == 'laptop') {
-        @media (min-width: $laptop) and (orientation: $orientation) { @content };
+        @media (min-width: variables.$laptop) and (orientation: $orientation) { @content };
     }
     @if ($breakpoint == 'desktop') {
-        @media (min-width: $desktop) { @content };
+        @media (min-width: variables.$desktop) { @content };
     }
 }
 
@@ -77,10 +79,6 @@
     
 }
 
-// @mixin align-items($alignment){
-//     @if $alignment == {}
-// }
-
 @mixin flex-direction($direction) {
     @if $direction == 'row' {
         flex-direction: row;
@@ -92,19 +90,19 @@
 
 @mixin button-state($background) {
     @if $background == 'blue' {
-        background-color: $blue;
-        color: $red;
+        background-color: variables.$blue;
+        color: variables.$red;
     }
     @if $background == 'red'   {
-        background-color: $red;
-        color: $blue;
+        background-color: variables.$red;
+        color: variables.$blue;
     }
     @if $background == 'yellow' {
-        background-color: $yellow;
-        color: $blue;
+        background-color: variables.$yellow;
+        color: variables.$blue;
     }
     @if $background == 'inverse-yellow'{
-        background-color: $blue;
-        color: $yellow;
+        background-color: variables.$blue;
+        color: variables.$yellow;
     }
 }

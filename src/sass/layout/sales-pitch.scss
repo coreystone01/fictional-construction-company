@@ -1,11 +1,13 @@
+@use '../abstract/mixins';
+
 .sales-pitch   {
     .container__one-column {
-        @include responsive('tablet'){
+        @include mixins.responsive('tablet'){
             width: 80%;
             border-radius: 15px;
             margin: 10%;
         }
-        @include responsive('laptop', 'landscape'){
+        @include mixins.responsive('laptop', 'landscape'){
             width: 80%;
             border-radius: 15px;
             margin: 10%; 

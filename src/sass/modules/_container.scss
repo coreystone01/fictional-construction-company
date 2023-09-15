@@ -1,4 +1,7 @@
 // dependencies: _mixins.scss
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
 .container,
 %container
  {
@@ -13,8 +16,8 @@
 .container__one-column	{
 	width: 80%;
 	margin: auto;
-	background-color: $light-grey;
-	@include responsive('sm-phone'){
+	background-color: variables.$light-grey;
+	@include mixins.responsive('sm-phone'){
 		width: 100%;
 	}
 

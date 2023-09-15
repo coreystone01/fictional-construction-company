@@ -1,11 +1,12 @@
 // dependencies: _mixins.scss
+@use '../abstract/mixins';
 .button,
 %button {
     padding: 4%;
     text-decoration: none;
     border: none;
     border-radius: 5px;
-    @include responsive('sm-phone'){
+    @include mixins.responsive('sm-phone'){
         padding: 8%;
     }
 
@@ -14,23 +15,23 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        @include responsive('sm-phone'){
+        @include mixins.responsive('sm-phone'){
             width: 40vw;
             height: 15vh;
         }
-        @include responsive('md-phone') {
+        @include mixins.responsive('md-phone') {
             width: 32vw;
             height: 15vh;
         }
-        @include responsive('lg-phone') {
+        @include mixins.responsive('lg-phone') {
             width: 30vw;
             height: 15vh;
         }
-        @include responsive('tablet'){
+        @include mixins.responsive('tablet'){
             width: 24vw;
             height: 15vh;
         }
-        @include responsive('laptop','landscape'){
+        @include mixins.responsive('laptop','landscape'){
             width: 15vw;
             height: 24vh;
         }
@@ -38,17 +39,17 @@
 
     &--bg__blue{
         @extend %button;
-        @include button-state('blue');
+        @include mixins.button-state('blue');
     }
 
     &--bg__red{
         @extend %button;
-        @include button-state('red');
+        @include mixins.button-state('red');
     }
 
     &--bg__yellow{
         @extend %button;
-        @include button-state('yellow');
+        @include mixins.button-state('yellow');
     }
 
 }

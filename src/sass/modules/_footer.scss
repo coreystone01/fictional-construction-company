@@ -1,38 +1,41 @@
+@use '../abstract/variables';
+@use '../abstract/mixins';
+
 .footer,
 %footer
 {
-    background-color: $yellow;
+    background-color: variables.$yellow;
 }
 
 .footer-title   {
     flex-grow: 1;
-    color: $blue;
-    @include responsive('sm-phone'){
+    color: variables.$blue;
+    @include mixins.responsive('sm-phone'){
         display: none;
     }
-    @include responsive('laptop', 'landscape'){
+    @include mixins.responsive('laptop', 'landscape'){
         display: none;
     }
 }
 
-.footer-navbar  {
+// .footer-navbar  {
     
-}
+// }
 
 .footer-nav-menu {
 	display: flex;
 	justify-content: space-around;
-    font-weight: $heavy-weight;
-    @include responsive('sm-phone'){
+    font-weight: variables.$heavy-weight;
+    @include mixins.responsive('sm-phone'){
         font-size: 0.8rem;
     };
-    @include responsive('lg-phone') {
+    @include mixins.responsive('lg-phone') {
         font-size: 1em;
     }
-    @include responsive('tablet'){
+    @include mixins.responsive('tablet'){
         font-size: 1.6em;
     }
-    @include responsive('laptop', 'landscape'){
+    @include mixins.responsive('laptop', 'landscape'){
         font-size: 1.6em;
     }
 }
@@ -40,13 +43,13 @@
 .footer-nav-item   {
     padding: 0.5rem;
     &:hover{
-        @include button-state('red');
+        @include mixins.responsive('red');
     }
 
     &:focus{
-        @include button-state('red');
+        @include mixins.button-state('red');
     }
     &:active{
-        @include button-state('red');
+        @include mixins.button-state('red');
     }
 }
